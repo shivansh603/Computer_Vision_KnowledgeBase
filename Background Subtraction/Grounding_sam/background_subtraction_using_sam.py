@@ -1,6 +1,4 @@
-import os
-import cv2
-import torch
+import os, cv2, torch
 from GroundingDINO.groundingdino.util.inference import Model
 from segment_anything import sam_model_registry, SamPredictor
 from typing import List
