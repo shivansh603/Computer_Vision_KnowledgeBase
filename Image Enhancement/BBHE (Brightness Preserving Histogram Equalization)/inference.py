@@ -30,13 +30,15 @@ class ImageEnhancer:
         ie = image_enhancement.IE(self.image, 'RGB')
         if method == 'BBHE':
             return ie.BBHE()
-        elif method == 'CLAHE':
-            return ie.CLAHE()
+        # elif method == 'CLAHE':
+        #     return ie.CLAHE()
         else:
-            raise ValueError("Invalid enhancement method. Supported methods: 'BBHE', 'CLAHE'")
+            raise ValueError("Invalid enhancement method. Supported methods: 'BBHE'")
 
 
-def main():
+
+
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Image Enhancement")
     parser.add_argument("input_image", type=str, help="Path to the input image")
     parser.add_argument("output_image", type=str, help="Path to save the enhanced image")
@@ -52,5 +54,3 @@ def main():
     cv2.imwrite(args.output_image, enhanced_image)
 
 
-if __name__ == "__main__":
-    main()
