@@ -8,7 +8,7 @@ Accelerator: TPU
 """
 
 """
-## Introduction + Set-up
+## Introduction and Set-up
 
 This tutorial will explain how to build an X-ray image classification model
 to predict whether an X-ray scan shows presence of pneumonia.
