@@ -3,7 +3,7 @@ import cv2
 
 cap = cv2.VideoCapture('sample.mp4') 
 
-# params for corner detection 
+# Params for corner detection 
 feature_params = dict( maxCorners = 100, 
 					qualityLevel = 0.3, 
 					minDistance = 7, 
