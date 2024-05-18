@@ -1,3 +1,30 @@
+"""
+Title: Image Orientation Correction
+
+Example Usage in Real-World Situations:
+1. Document Scanning: Automatically corrects the orientation of scanned documents to ensure they are upright for easier reading and processing.
+2. Photography: Adjusts the orientation of photos taken at an angle, ensuring they are level for printing or sharing.
+3. Security and Surveillance: Corrects the orientation of images from security cameras that might be mounted at odd angles, aiding in clearer analysis.
+4. Medical Imaging: Ensures that X-rays, MRIs, and other medical images are correctly oriented for accurate diagnosis and analysis.
+5. E-commerce: Aligns product images for a consistent presentation on online stores.
+
+Problem Solved by Using This Code:
+Corrects the orientation of images by detecting the dominant axis and rotating the image accordingly, ensuring that images are properly aligned for further processing or viewing.
+
+General Input and Output and Modality:
+- Input:
+  - Modality: Image file
+  - Format: Path to the input image file (e.g., JPEG, PNG)
+  - Parameters: Path to the input image, path to save the corrected image, optional fill color for background
+
+- Output:
+  - Modality: Image file
+  - Format: Path to the output image file (e.g., JPEG, PNG)
+  - Description: Corrected image saved to the specified path with the proper orientation
+"""
+
+
+
 import cv2 as cv
 import numpy as np
 import pandas as pd
