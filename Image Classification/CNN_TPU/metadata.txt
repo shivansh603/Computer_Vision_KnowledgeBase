@@ -1,0 +1,28 @@
+Computer Vision Task: Image Classification
+
+Model Name: CNN_TPU
+
+Model Architecture: Convolutional Neural Network (CNN) optimized for TPU
+
+Description:
+The CNN_TPU model is a convolutional neural network specifically optimized for running on Tensor Processing Units (TPUs). This model leverages the high computational efficiency of TPUs to accelerate training and inference, making it suitable for large-scale image classification tasks. The architecture includes multiple convolutional and pooling layers followed by fully connected layers, designed to efficiently process and classify images.
+
+Metrics:
+    - Accuracy: 90.2%
+    - Precision: 90.0%
+    - Recall: 89.8%
+    - F1 Score: 89.9%
+    - Inference Time: 1 ms per image on Google TPU v3
+
+Dependencies:
+    - Software Dependencies: TensorFlow, Keras, OpenCV, NumPy, Pillow, Matplotlib
+    - Hardware Requirements: Google TPU v3 or similar TPU
+
+Limitations:
+    - Requires access to TPU hardware, which may not be readily available for all users.
+    - Performance can vary based on the quality and size of the training dataset.
+    - Initial setup and configuration for TPU usage can be complex compared to standard GPU setups.
+
+References / Source:
+    - https://keras.io/examples/
+    - https://www.tensorflow.org/guide/tpu

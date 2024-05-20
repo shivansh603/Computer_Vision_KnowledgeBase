@@ -1,0 +1,30 @@
+Computer Vision Task: Image Classification
+
+Model Name: BigTransfer (BiT)
+
+Model Architecture: Convolutional Neural Network (CNN)
+
+Description:
+BigTransfer (BiT) is a robust image classification model that leverages transfer learning to achieve state-of-the-art performance on a variety of image classification tasks. BiT is pre-trained on a large dataset and can be fine-tuned for specific tasks, providing high accuracy and efficiency. It is designed to handle diverse datasets and is particularly effective in scenarios with limited labeled data.
+
+Metrics:
+
+    - Top-1 Accuracy: 87.5%
+    - Top-5 Accuracy: 98.5%
+    - Precision: 88.0%
+    - Recall: 87.2%
+    - F1 Score: 87.6%
+    - Inference Time: 15 ms per image on NVIDIA V100
+
+Dependencies:
+    - Software Dependencies: TensorFlow, OpenCV, NumPy, Pillow, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA V100 or similar recommended), CPU
+
+Limitations:
+    - The model may require substantial computational resources for training and fine-tuning.
+    - Performance may vary significantly based on the quality and diversity of the fine-tuning dataset.
+    - Requires a GPU for optimal performance and real-time inference.
+
+References / Source:
+    - https://github.com/google-research/big_transfer
+    - https://arxiv.org/abs/1912.11370

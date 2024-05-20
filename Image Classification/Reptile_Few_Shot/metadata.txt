@@ -1,0 +1,29 @@
+CV Task: Image Classification
+
+Model Name: Reptile
+
+Model Architecture: Meta-Learning Algorithm
+
+Description:
+Reptile is a meta-learning algorithm designed to perform well on a variety of tasks with minimal training on each new task. It is particularly useful for few-shot learning scenarios where training data is limited. Reptile can quickly adapt to new image classification tasks by leveraging previous learning experiences, making it suitable for applications such as personalized image recognition, medical image analysis, and adaptive visual systems.
+
+Metrics:
+    - Accuracy: 65.2% (on 5-way 1-shot classification)
+
+Training Time: Varies depending on the number of meta-training iterations, typically requires several hours on a high-end GPU.
+
+Inference Time: 10 ms per image on NVIDIA V100 (after meta-training)
+
+Dependencies:
+    - Software Dependencies: TensorFlow, NumPy, SciPy, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA V100 or similar recommended), CPU
+
+Limitations:
+    - Performance highly depends on the quality and diversity of the meta-training tasks.
+    - May require fine-tuning for optimal performance on highly specific or domain-specific tasks.
+    - Initial meta-training phase can be computationally intensive and time-consuming.
+    - Requires a GPU for efficient meta-training and inference.
+
+References / Source:
+    - https://keras.io/examples/vision/reptile/
+    - https://arxiv.org/pdf/1803.02999

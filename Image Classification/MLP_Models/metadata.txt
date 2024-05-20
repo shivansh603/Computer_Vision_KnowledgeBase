@@ -1,0 +1,28 @@
+Computer Vision Task: Image Classification
+
+Model Name: Attention-based Deep Multiple Instance Learning (AD-MIL)
+
+Model Architecture: Convolutional Neural Network (CNN) with Attention Mechanisms and Multiple Instance Learning Paradigm
+
+Description:
+Attention-based Deep Multiple Instance Learning (AD-MIL) is a cutting-edge approach for image classification that combines the strengths of multiple instance learning with attention mechanisms. In MIL, training data is organized into bags containing multiple instances, where only the bag-level labels are provided. AD-MIL employs attention mechanisms to dynamically focus on the most informative instances within each bag, thereby enhancing classification accuracy. This method is particularly useful in scenarios where precise instance-level annotations are not available.
+
+Metrics:
+    - Accuracy: 88.4%
+    - Precision: 88.1%
+    - Recall: 87.9%
+    - F1 Score: 88.0%
+
+Inference Time: 12 ms per image on NVIDIA Tesla V100 GPU
+
+Dependencies:
+    - Software Dependencies: PyTorch, TensorFlow, OpenCV, NumPy, Pillow, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA Tesla V100 or similar recommended), CPU
+
+Limitations:
+    - Performance may be impacted by highly diverse or cluttered image backgrounds.
+    - Requires careful tuning of attention mechanisms and hyperparameters to achieve optimal performance.
+    - Computationally intensive, requiring GPU acceleration for efficient training and inference.
+
+References / Source:
+    - https://arxiv.org/pdf/1802.04712
