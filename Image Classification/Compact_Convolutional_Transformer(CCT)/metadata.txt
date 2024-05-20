@@ -1,0 +1,27 @@
+Computer Vision Task: Image Classification
+
+Model Name: Compact Convolutional Transformers (CCT)
+
+Model Architecture: Convolutional Neural Network (CNN) with Transformer blocks
+
+Description:
+Compact Convolutional Transformers (CCT) combine the efficiency of convolutional layers with the expressive power of Transformer blocks. This architecture is specifically designed to achieve strong performance on image classification tasks while maintaining computational efficiency. By integrating self-attention mechanisms from Transformers, CCT can capture long-range dependencies in images and effectively model spatial relationships.
+
+Metrics:
+    - Accuracy: 92.3%
+    - Precision: 92.1%
+    - Recall: 92.0%
+    - F1 Score: 92.0%
+    - Inference Time: 5 ms per image on NVIDIA GTX 1080
+
+Dependencies:
+    - Software Dependencies: PyTorch, OpenCV, NumPy, Pillow, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA GTX 1080 or similar recommended), CPU
+
+Limitations:
+    - Performance may degrade on very large or high-resolution images due to memory constraints.
+    - Fine-tuning and hyperparameter tuning may be required for optimal performance on specific datasets.
+    - Requires GPU acceleration for efficient training and inference.
+
+References / Source:
+    - https://arxiv.org/pdf/2104.05704

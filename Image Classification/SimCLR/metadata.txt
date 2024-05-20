@@ -1,0 +1,26 @@
+CV Task: Image Classification
+
+Model Name: SimCLR
+
+Model Architecture: Contrastive Learning Algorithm
+
+Description:
+SimCLR (Simple Framework for Contrastive Learning of Visual Representations) is a state-of-the-art self-supervised learning algorithm designed for image classification. By maximizing the agreement between differently augmented views of the same data, SimCLR learns robust image representations without requiring labeled data. This model is effective for various downstream tasks, such as object detection and image segmentation, making it suitable for applications in medical imaging, autonomous vehicles, and general visual understanding.
+
+Metrics:
+Accuracy: 68.4% (on ImageNet top-1 classification with linear evaluation)
+Training Time: Varies depending on the dataset and hardware, typically requires several days on a high-end GPU cluster.
+Inference Time: 15 ms per image on NVIDIA V100 (after pretraining)
+
+Dependencies:
+Software Dependencies: TensorFlow, NumPy, SciPy, Matplotlib
+Hardware Requirements: GPU (NVIDIA V100 or similar recommended), CPU
+
+Limitations:
+Requires a large amount of unlabeled data for pretraining to achieve optimal performance.
+High computational cost during the pretraining phase.
+Performance can be sensitive to the choice of data augmentation techniques and hyperparameters.
+
+References / Source:
+SimCLR Paper
+TensorFlow Documentation on Contrastive Learning

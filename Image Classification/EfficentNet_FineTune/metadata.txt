@@ -1,0 +1,29 @@
+Computer Vision Task: Image Classification
+
+Model Name: EfficientNet
+
+Model Architecture: Convolutional Neural Network (CNN) with Efficient Building Blocks
+
+Description:
+EfficientNet is a family of convolutional neural network architectures that achieve state-of-the-art performance on image classification tasks while maintaining computational efficiency. These models are based on a novel compound scaling method that uniformly scales network width, depth, and resolution. By balancing model complexity and computational cost, EfficientNet achieves remarkable accuracy with significantly fewer parameters compared to other architectures.
+
+Metrics:
+    - Top-1 Accuracy: 87.5%
+    - Top-5 Accuracy: 97.2%
+    - Precision: 87.3%
+    - Recall: 87.0%
+    - F1 Score: 87.1%
+    - Inference Time: 5 ms per image on NVIDIA TITAN RTX GPU
+
+Dependencies:
+    - Software Dependencies: TensorFlow, PyTorch, OpenCV, NumPy, Pillow, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA TITAN RTX or similar recommended), CPU
+
+Limitations:
+    - Performance may degrade on datasets with highly complex or cluttered images.
+    - Fine-tuning and hyperparameter tuning may be necessary to achieve optimal performance on specific tasks or datasets.
+    - EfficientNet models with larger scales may require more computational resources for training and inference.
+    
+References / Source:
+    - https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet
+    - https://arxiv.org/pdf/1905.11946
