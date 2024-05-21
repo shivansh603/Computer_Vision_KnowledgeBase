@@ -1,0 +1,27 @@
+Computer Vision Task: Optical Flow
+
+Algorithm Name: Gunnar Farneback Dense Optical Flow
+
+Algorithm Type: Dense Optical Flow Estimation
+
+Description:
+The Gunnar Farneback Dense Optical Flow algorithm is designed to estimate the motion of each pixel between consecutive frames in a video sequence. This method uses polynomial expansion to approximate the pixel intensities and computes the displacement field for every pixel, providing a dense flow map. It is highly effective for applications requiring precise motion tracking, such as video stabilization, object tracking, and action recognition.
+
+Metrics:
+    - Flow Accuracy: Variable, depends on the dataset and the nature of the motion.
+
+Computational Time: 30-50 ms per frame on a standard CPU (timing can vary based on resolution and hardware).
+
+Dependencies:
+    - Software Dependencies: OpenCV, NumPy
+    - Hardware Requirements: CPU (GPU acceleration not typically required but can improve performance)
+
+Limitations:
+    - Performance can degrade with large displacements or rapid motions between frames.
+    - Sensitive to noise and changes in illumination.
+    - Requires parameter tuning for optimal performance in different scenarios.
+
+References / Source:
+    - Farnebäck, G. (2003). Two-Frame Motion Estimation Based on Polynomial Expansion. Proceedings of the 13th Scandinavian Conference on Image Analysis (SCIA), 363-370.
+    - OpenCV Documentation: https://docs.opencv.org/4.x/dc/d6b/group__video__track.html#ga472f023c46e542fa68a426f61d9b695d
+    - https://github.com/opencv/opencv

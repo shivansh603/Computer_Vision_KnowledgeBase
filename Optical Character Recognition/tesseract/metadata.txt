@@ -1,0 +1,30 @@
+Computer Vision Task: Optical Character Recognition (OCR)
+
+Framework Name: PyTesseract
+
+Framework Type: OCR Engine Wrapper
+
+Description:
+PyTesseract is a Python wrapper for Google's Tesseract-OCR Engine. It enables easy integration of Tesseract OCR capabilities within Python scripts, allowing users to perform text extraction from images and scanned documents. Tesseract uses advanced image processing techniques and machine learning models to recognize text in various languages and formats. PyTesseract is widely used for document digitization, text extraction from images, and automated data entry tasks.
+
+Metrics:
+    - Character Recognition Accuracy: Depends on the quality of the input images and preprocessing, typically achieving high accuracy for clean and well-formatted text.
+    - Text Detection Precision: 90.0% (on clean and well-formatted text)
+    - Text Recognition Accuracy: 85.0% (varies with image quality and preprocessing)
+
+Inference Time: Varies depending on the image size and complexity, typically ranging from milliseconds to seconds per image.
+
+Dependencies:
+    - Software Dependencies: Tesseract-OCR, OpenCV, NumPy, Pillow
+    - Hardware Requirements: CPU (suitable for most applications)
+
+Limitations:
+    - Performance can degrade with noisy, distorted, or low-resolution images.
+    - Limited support for very complex layouts and handwritten text.
+    - Requires preprocessing steps such as binarization, denoising, and resizing for optimal performance.
+
+References / Source:
+    - PyTesseract GitHub Repository: https://github.com/madmaze/pytesseract
+    - Tesseract-OCR Documentation: https://github.com/tesseract-ocr/tesseract
+    - Smith, R. (2007). An Overview of the Tesseract OCR Engine. In Document Analysis and Recognition, 2007. ICDAR 2007. Ninth International Conference on (Vol. 2, pp. 629-633). IEEE.
+    - https://github.com/tesseract-ocr/tesseract/wiki

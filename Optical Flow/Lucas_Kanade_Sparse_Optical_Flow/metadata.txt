@@ -1,0 +1,27 @@
+Computer Vision Task: Optical Flow
+
+Algorithm Name: Lucas-Kanade Sparse Optical Flow
+
+Algorithm Type: Sparse Optical Flow Estimation
+
+Description:
+The Lucas-Kanade Sparse Optical Flow algorithm is used to estimate the motion of a sparse set of feature points between consecutive frames in a video sequence. It works by assuming that the flow is essentially constant in a local neighborhood of the pixel under consideration, and uses a least squares approach to solve for the optical flow vectors. This method is highly efficient and suitable for applications like feature tracking, video stabilization, and motion analysis where only a sparse set of key points is required.
+
+Metrics:
+    Flow Accuracy: High for small displacements and well-textured regions.
+
+Computational Time: 10-30 ms per frame on a standard CPU (timing can vary based on the number of points and resolution).
+
+Dependencies:
+    - Software Dependencies: OpenCV, NumPy
+    - Hardware Requirements: CPU (GPU can be used to accelerate performance but is not essential)
+
+Limitations:
+    - Performance can degrade with large displacements, rapid motion, or in areas with little texture.
+    - Sensitive to noise and lighting variations.
+    - Requires good feature points for optimal performance (e.g., corners detected by Harris or Shi-Tomasi methods).
+
+References / Source:
+    - Lucas, B. D., & Kanade, T. (1981). An Iterative Image Registration Technique with an Application to Stereo Vision. Proceedings of the 7th International Joint Conference on Artificial Intelligence (IJCAI), 674-679.
+    - OpenCV Documentation: https://docs.opencv.org/4.x/d4/dee/tutorial_optical_flow.html
+    - OpenCV GitHub Repository: https://github.com/opencv/opencv

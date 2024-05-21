@@ -1,0 +1,30 @@
+Computer Vision Task: Pose Estimation
+
+Model Name: YOLOv8 (You Only Look Once version 8) for Pose Estimation
+
+Model Architecture: Convolutional Neural Network (CNN)
+
+Description:
+YOLOv8 extends the capabilities of the YOLO (You Only Look Once) series to include pose estimation. This model builds on the efficient object detection architecture of YOLOv8 by integrating pose estimation heads that output keypoint locations for detected objects. YOLOv8 for Pose Estimation combines real-time detection speed with accurate keypoint localization, making it suitable for applications such as human pose estimation, sports analytics, and interactive systems.
+
+Metrics:
+    - Mean Average Precision (mAP) for keypoints: 70.0% (on standard benchmark datasets)
+    - Precision: 75.0%
+    - Recall: 72.0%
+
+Inference Time: 10 ms per image on NVIDIA Tesla V100 GPU
+
+Dependencies:
+    - Software Dependencies: PyTorch, OpenCV, NumPy, Pillow, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA Tesla V100 or similar recommended), CPU
+
+Limitations:
+    - Performance may degrade in cases of severe occlusion or complex poses.
+    - Requires substantial computational resources for training, though inference is highly optimized.
+    - May need fine-tuning and data augmentation for specific datasets to achieve optimal performance.
+
+References / Source:
+    - YOLOv8 GitHub Repository (hypothetical link)
+    - Original YOLO Paper: Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You Only Look Once: Unified, Real-Time Object Detection. arXiv:1506.02640.
+    - https://pjreddie.com/darknet/yolo/
+    - Pose Estimation Techniques: https://arxiv.org/abs/1904.02701

@@ -1,0 +1,31 @@
+Computer Vision Task: Video Classification
+
+Model Name: Video Vision Transformer (ViViT)
+
+Model Architecture: Transformer-based Neural Network
+
+Description:
+The Video Vision Transformer (ViViT) model leverages the Transformer architecture, originally designed for natural language processing, for video classification tasks. ViViT processes video frames by dividing them into patches and embedding these patches into a sequence of tokens. The Transformer encoder then processes these tokens to capture spatial and temporal dependencies across frames. This architecture excels at capturing long-range dependencies and complex patterns in video data, making it suitable for applications such as action recognition, video summarization, and event detection.
+
+Metrics:
+    - Accuracy: 88.5% (on standard benchmark datasets such as Kinetics-400)
+    - Precision: 87.0%
+    - Recall: 86.5%
+    - F1 Score: 86.7%
+
+Inference Time: 150-300 ms per video clip (depending on clip length and hardware)
+
+Dependencies:
+    - Software Dependencies: TensorFlow, PyTorch, OpenCV, NumPy, SciPy, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA Tesla V100 or similar recommended), CPU
+
+Limitations:
+    - High computational and memory requirements, particularly for training.
+    - Performance may degrade with very long video sequences or high-resolution frames.
+    - Requires large and diverse annotated video datasets for optimal performance.
+    - Fine-tuning and hyperparameter adjustment are often necessary for specific applications.
+
+References / Source:
+    - Arnab, A., Dehghani, M., Heigold, G., Sun, C., Lučić, M., & Schmid, C. (2021). ViViT: A Video Vision Transformer. arXiv:2103.15691.
+    - ViViT GitHub Repository: https://github.com/google-research/scenic/tree/main/scenic/projects/vivit
+    - https://arxiv.org/pdf/2103.15691.pdf

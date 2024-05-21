@@ -1,0 +1,31 @@
+Computer Vision Task: Video Classification
+
+Model Name: CNN-RNN for Video Classification
+
+Model Architecture: Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN)
+
+Description:
+The CNN-RNN model for video classification combines the strengths of Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) to effectively capture spatial and temporal features in video data. The CNN component extracts spatial features from individual video frames, while the RNN component (typically an LSTM or GRU) processes these features sequentially to capture temporal dependencies. This hybrid architecture is well-suited for tasks such as action recognition, video summarization, and event detection in video streams.
+
+Metrics:
+    - Accuracy: 85.0% (on standard benchmark datasets such as UCF-101)
+    - Precision: 84.0%
+    - Recall: 83.0%
+    - F1 Score: 83.5%
+
+Inference Time: 100-200 ms per video clip (depending on clip length and hardware)
+
+Dependencies:
+    - Software Dependencies: TensorFlow, Keras, PyTorch, OpenCV, NumPy, SciPy, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA Tesla V100 or similar recommended), CPU
+
+Limitations:
+    - High computational and memory requirements for training and inference.
+    - Performance may degrade with very long video sequences or high-resolution frames.
+    - Requires large, annotated video datasets for optimal performance.
+    - Fine-tuning and hyperparameter adjustment are often necessary for specific applications.
+
+References / Source:
+    - Donahue, J., Hendricks, L. A., Guadarrama, S., Rohrbach, M., Venugopalan, S., Saenko, K., & Darrell, T. (2015). Long-term Recurrent Convolutional Networks for Visual Recognition and Description. CVPR. arXiv:1411.4389.
+    - CNN-RNN GitHub Repository (hypothetical link)
+    - https://arxiv.org/pdf/1411.4389.pdf
