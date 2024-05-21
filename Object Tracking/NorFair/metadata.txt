@@ -1,0 +1,25 @@
+Computer Vision Task: Object Tracking
+
+Algorithm Name: Norfair
+
+Algorithm Type: Object Tracking
+
+Description:
+Norfair is an object tracking algorithm designed to track objects of interest across consecutive frames in a video sequence. It employs a combination of techniques such as object detection, motion estimation, and data association to maintain the identity of objects over time. Norfair aims to provide robust and real-time tracking performance, making it suitable for applications such as surveillance, video analysis, and augmented reality.
+
+Metrics:
+Tracking Accuracy: Depends on the specific application and tracking scenario.
+Frames per Second (FPS): 30-60 FPS (on standard video resolutions)
+
+Dependencies:
+    - Software Dependencies: OpenCV, NumPy, SciPy, Matplotlib
+    - Hardware Requirements: CPU
+
+Limitations:
+    - Performance may degrade in challenging scenarios such as occlusions, fast motion, or changes in lighting conditions.
+    - Accuracy can vary based on the quality of the object detection and motion estimation modules.
+    - May require fine-tuning of parameters for optimal performance on different types of videos and objects.
+
+References / Source:
+    - https://github.com/tryolabs/norfair
+    - https://tryolabs.github.io/norfair/2.2/reference/

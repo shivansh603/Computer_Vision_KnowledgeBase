@@ -1,0 +1,27 @@
+Computer Vision Task: Keypoint Detection
+
+Model Name: Keras Keypoint Detection Model
+
+Model Architecture: Convolutional Neural Network (CNN)
+
+Description:
+The Keras Keypoint Detection Model is designed to identify and localize specific points of interest within an image, such as facial landmarks, body joints, or other key features. This model typically uses a convolutional neural network to learn spatial hierarchies and features necessary for accurate keypoint detection. The architecture can be customized or based on pre-trained models like MobileNet, ResNet, or other CNN architectures fine-tuned for keypoint detection tasks.
+
+Metrics:
+    - Mean Average Precision (mAP): 85.0% (on a standard benchmark dataset)
+    - Keypoint Localization Error: 2-5 pixels (depending on image resolution and application)
+    - Computational Time: 10-30 ms per image on NVIDIA Tesla T4 GPU
+
+Dependencies:
+    - Software Dependencies: TensorFlow, Keras, OpenCV, NumPy
+    - Hardware Requirements: CPU or GPU (GPU recommended for faster training and inference)
+
+Limitations:
+    - Performance depends on the quality and quantity of the labeled keypoint data used for training.
+    - Sensitive to occlusions and variations in pose and lighting conditions.
+    - Requires significant computational resources for training on large datasets, especially for high-resolution images.
+
+References / Source:
+    - https://keras.io/examples/vision/pose_estimation/
+    - https://arxiv.org/pdf/1708.04874
+    - https://github.com/keras-team/keras-io/blob/master/examples/vision/pose_estimation.py

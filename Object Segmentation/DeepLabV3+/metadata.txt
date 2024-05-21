@@ -1,0 +1,28 @@
+Computer Vision Task: Semantic Segmentation
+
+Model Name: DeepLabv3+
+
+Model Architecture: Convolutional Neural Network (CNN) with Atrous Convolution and Encoder-Decoder Structure
+
+Description:
+DeepLabv3+ is an advanced semantic segmentation model that builds on the DeepLabv3 architecture by incorporating an encoder-decoder structure. It uses atrous (dilated) convolutions to capture multi-scale contextual information and an encoder-decoder setup to refine segmentation boundaries. The encoder extracts rich feature representations, while the decoder improves the object boundaries and localization. This architecture excels in segmenting objects in images with high accuracy, making it ideal for applications in autonomous driving, medical imaging, and scene understanding.
+
+Metrics:
+    - Mean Intersection over Union (mIoU): 82.7% (on the Pascal VOC 2012 dataset)
+    - Pixel Accuracy: 95.2%
+
+Computational Time: 85 ms per image on NVIDIA Tesla V100 GPU
+
+Dependencies:
+    - Software Dependencies: TensorFlow, PyTorch, OpenCV, NumPy, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA Tesla V100 or similar recommended), CPU
+
+Limitations:
+    - High computational and memory requirements for training and inference.
+    - Performance may degrade on datasets with significant variations in object scale and appearance.
+    - Requires large, annotated datasets for optimal performance and effective training.
+
+References / Source:
+    - Chen, L.-C., Zhu, Y., Papandreou, G., Schroff, F., & Adam, H. (2018). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation. arXiv:1802.02611.
+    - DeepLabv3+ GitHub Repository: https://github.com/tensorflow/models/tree/master/research/deeplab
+    - https://arxiv.org/pdf/1802.02611.pdf

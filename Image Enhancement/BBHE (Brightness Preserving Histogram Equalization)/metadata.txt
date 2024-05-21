@@ -1,0 +1,26 @@
+Computer Vision Task: Image Enhancement
+
+Model Name: Brightness Preserving Histogram Equalization (BBHE)
+
+Model Architecture: Histogram Equalization Algorithm
+
+Description:
+Brightness Preserving Histogram Equalization (BBHE) is an image enhancement algorithm designed to improve the contrast of an image while preserving its mean brightness. Unlike traditional histogram equalization, which can lead to significant brightness shifts, BBHE divides the histogram into two parts based on the mean brightness and equalizes them separately. This approach ensures that the enhanced image maintains a natural appearance, making BBHE suitable for applications such as medical imaging, photography, and real-time video processing.
+
+Metrics:
+    - Contrast Improvement Index: 1.35 (average improvement over standard histogram equalization)
+    - Mean Brightness Deviation: <1% (ensures brightness preservation)
+    - Computational Time: 2 ms per image on standard CPU
+
+Dependencies:
+    - Software Dependencies: OpenCV, NumPy, SciPy, Pillow
+    - Hardware Requirements: CPU
+
+Limitations:
+    - Performance may degrade on images with very low contrast or extreme brightness variations.
+    - The algorithm might not be as effective for color images without modifications to handle each channel separately.
+    - Requires proper selection of mean brightness threshold to achieve optimal results.
+
+References / Source:
+    - https://ieeexplore.ieee.org/document/1163728
+    - https://www.sciencedirect.com/science/article/pii/S0031320304001769

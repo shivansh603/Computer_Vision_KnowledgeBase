@@ -1,0 +1,27 @@
+Computer Vision Task: Perspective Plane Correction
+
+Model Name: Perspective Plane Correction
+
+Model Architecture: Geometric Transformation Algorithm
+
+Description:
+Perspective Plane Correction is an image processing technique designed to correct the distortion caused by the perspective view of planar objects in an image. This algorithm estimates the homography transformation matrix that maps the distorted image plane to a fronto-parallel view, thereby rectifying the perspective distortion. This method is widely used in document scanning, architectural photography, and augmented reality applications to ensure that objects appear with correct proportions and without skew.
+
+Metrics:
+Geometric Distortion Correction Accuracy: High (qualitative measure based on visual inspection)
+
+Computational Time: 20-50 ms per image on standard CPU
+
+Dependencies:
+    - Software Dependencies: OpenCV, NumPy, SciPy, Matplotlib
+    - Hardware Requirements: CPU
+
+Limitations:
+    - Requires accurate detection of feature points or reference markers to compute the homography matrix.
+    - Performance may degrade if the planar object is not well-defined or partially occluded.
+    - May introduce artifacts if the perspective distortion is severe or if there are significant depth variations within the object plane.
+
+References / Source:
+    - https://docs.opencv.org/4.x/da/de9/tutorial_py_epipolar_geometry.html
+    - Hartley, R., & Zisserman, A. (2004). Multiple View Geometry in Computer Vision (2nd Edition). Cambridge University Press.
+    - https://www.learnopencv.com/homography-examples-using-opencv-python-c/

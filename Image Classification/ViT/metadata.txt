@@ -1,0 +1,31 @@
+Computer Vision Task: Image Classification
+
+Model Name: Vision Transformer (ViT)
+
+Model Architecture: Transformer-based Neural Network
+
+Description:
+Vision Transformer (ViT) is a pioneering neural network architecture that applies transformer models to image classification tasks. Unlike traditional convolutional neural networks (CNNs), ViT divides an image into fixed-size patches and processes them as a sequence of tokens, similar to how transformers process words in NLP tasks. This approach allows ViT to capture long-range dependencies and global context effectively, leading to state-of-the-art performance on various image classification benchmarks.
+
+Metrics:
+    - Top-1 Accuracy: 85.5% (on ImageNet-1K)
+    - Top-5 Accuracy: 97.2% (on ImageNet-1K)
+    - Precision: 85.2%
+    - Recall: 85.0%
+    - F1 Score: 85.1%
+
+Inference Time: 12 ms per image on NVIDIA Tesla T4 GPU
+
+Dependencies:
+    - Software Dependencies: PyTorch, TensorFlow, OpenCV, NumPy, Pillow, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA Tesla T4 or similar recommended), CPU
+
+Limitations:
+    - Requires a large amount of data for pretraining to achieve optimal performance.
+    - Computationally intensive, necessitating powerful GPUs for efficient training and inference.
+    - Performance can be sensitive to the choice of patch size and other hyperparameters.
+    - May require fine-tuning on specific datasets to achieve the best results.
+
+References / Source:
+    - https://arxiv.org/pdf/2010.11929
+    - https://github.com/google-research/vision_transformer

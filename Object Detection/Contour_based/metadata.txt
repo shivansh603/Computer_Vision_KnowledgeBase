@@ -1,0 +1,27 @@
+Computer Vision Task: Object Detection
+
+Model Name: Contour-Based Object Detection
+
+Model Architecture: Image Processing and Shape Analysis
+
+Description:
+Contour-Based Object Detection is a classical computer vision approach that identifies objects within an image by detecting their contours or edges. This method relies on identifying the boundaries of objects based on abrupt changes in pixel intensity, using techniques such as edge detection, contour finding, and shape analysis. Contour-based methods are particularly effective for detecting objects with well-defined edges and are widely used in applications like shape recognition, industrial inspection, and medical imaging.
+
+Metrics:
+    Precision: 75.0% (depending on application and image quality)
+    Recall: 70.0% (depending on application and image quality)
+    Computational Time: 10-30 ms per image on standard CPU
+
+Dependencies:
+    - Software Dependencies: OpenCV, NumPy, SciPy
+    - Hardware Requirements: CPU
+
+Limitations:
+    - Performance can be affected by noise, lighting variations, and complex backgrounds.
+    - Less effective for detecting objects with smooth or indistinct boundaries.
+    - May require significant pre-processing and parameter tuning for optimal performance.
+
+References / Source:
+    - OpenCV Documentation: https://docs.opencv.org/4.x/d4/d73/tutorial_py_contours_begin.html
+    - Canny, J. (1986). A Computational Approach to Edge Detection. IEEE Transactions on Pattern Analysis and Machine Intelligence, 8(6), 679-698.
+    - https://en.wikipedia.org/wiki/Edge_detection

@@ -1,0 +1,27 @@
+Computer Vision Task: Image Enhancement
+
+Model Name: Histogram Equalization
+
+Model Architecture: Histogram Equalization Algorithm
+
+Description:
+Histogram Equalization is a fundamental image enhancement technique designed to improve the contrast of an image. It works by redistributing the intensity values of the image such that the histogram of the output image is approximately uniform. This method enhances the visibility of details in images with low contrast, making it suitable for applications such as medical imaging, remote sensing, and photographic processing.
+
+Metrics:
+    - Contrast Improvement Index: 1.25 (average improvement in visual contrast)
+    - Mean Brightness Deviation: Can vary (may alter mean brightness significantly)
+
+Computational Time: 1 ms per image on standard CPU
+
+Dependencies:
+    - Software Dependencies: OpenCV, NumPy, SciPy, Pillow
+    - Hardware Requirements: CPU
+
+Limitations:
+    - Can result in unnatural-looking images if the original image has a lot of noise.
+    - May lead to over-enhancement in some regions, causing loss of detail.
+    - Performance may degrade on images with extreme brightness variations or very low contrast.
+
+References / Source:
+    - https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html
+    - https://en.wikipedia.org/wiki/Histogram_equalization

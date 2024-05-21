@@ -8,12 +8,12 @@ Description:
 Global Context Vision Transformer (GCT) is a novel neural network architecture designed for image classification tasks. It extends the Transformer model by incorporating global context mechanisms, enabling the model to capture long-range dependencies and contextual information across the entire image. By effectively integrating global context, GCT achieves superior performance on various image classification benchmarks, surpassing traditional convolutional neural networks in capturing holistic image features.
 
 Metrics:
+    - Top-1 Accuracy: 91.8%
+    - Top-5 Accuracy: 98.3%
+    - Precision: 91.5%
+    - Recall: 91.2%
+    - F1 Score: 91.3%
 
-Top-1 Accuracy: 91.8%
-Top-5 Accuracy: 98.3%
-Precision: 91.5%
-Recall: 91.2%
-F1 Score: 91.3%
 Inference Time: 8 ms per image on NVIDIA Tesla T4 GPU
 
 Dependencies:

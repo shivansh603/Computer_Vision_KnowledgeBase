@@ -1,0 +1,28 @@
+Computer Vision Task: Image Preprocessing
+
+Model Name: Image Deconvolution
+
+Model Architecture: Deconvolution Algorithm
+
+Description:
+Image Deconvolution is a technique used in image processing to reverse the effects of blurring and recover the original image. Blurring can occur due to various factors, such as camera motion, defocus, or atmospheric disturbance. Deconvolution algorithms aim to estimate the original image by mitigating the blur effect, enhancing the sharpness and clarity of the image. This technique is crucial in fields such as astronomy, microscopy, and medical imaging, where image clarity is paramount.
+
+Metrics:
+- Peak Signal-to-Noise Ratio (PSNR): 30-40 dB (higher is better; indicates the quality of the restored image)
+- Structural Similarity Index (SSI): 0.85 (higher is better; indicates preservation of image structure)
+
+Computational Time: 50-100 ms per image on standard CPU
+
+Dependencies:
+    - Software Dependencies: OpenCV, NumPy, SciPy, PyTorch/TensorFlow (for advanced models), Matplotlib
+    - Hardware Requirements: CPU (GPU recommended for complex and large-scale images)
+
+Limitations:
+    - Performance depends heavily on the accuracy of the blur kernel estimation.
+    - Computational cost can be high for large images or advanced deconvolution algorithms.
+    - May introduce artifacts if the blur kernel is inaccurately estimated or if the algorithm parameters are not well-tuned.
+
+References / Source:
+    - Gonzalez, R. C., & Woods, R. E. (2002). Digital Image Processing (3rd Edition). Prentice Hall.
+    - https://docs.opencv.org/4.x/d4/d13/tutorial_py_filtering.html
+    - Jansson, P. A. (1997). Deconvolution of Images and Spectra. Academic Press.

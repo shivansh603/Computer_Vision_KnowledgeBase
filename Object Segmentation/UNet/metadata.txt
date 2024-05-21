@@ -1,0 +1,28 @@
+Computer Vision Task: Image Segmentation
+
+Model Name: U-Net
+
+Model Architecture: Convolutional Neural Network (CNN) with Encoder-Decoder Structure
+
+Description:
+U-Net is a convolutional neural network architecture specifically designed for image segmentation tasks. It features a symmetric encoder-decoder structure with skip connections that bridge corresponding layers in the encoder and decoder paths. This design allows U-Net to capture both high-level semantic information and fine-grained details, making it highly effective for segmenting objects with complex shapes and varying sizes. U-Net is widely used in medical imaging, satellite image analysis, and other applications requiring precise delineation of objects.
+
+Metrics:
+    - Dice Coefficient: 0.85 (higher is better; indicates overlap between predicted and ground truth segments)
+    - Mean Intersection over Union (mIoU): 0.75 (on standard benchmark datasets)
+
+Computational Time: 50-100 ms per image on NVIDIA Tesla V100 GPU
+
+Dependencies:
+    - Software Dependencies: TensorFlow, Keras, PyTorch, OpenCV, NumPy, SciPy, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA Tesla V100 or similar recommended), CPU
+
+Limitations:
+    - Performance can degrade on images with significant noise or artifacts.
+    - Requires substantial computational resources for training, especially on large datasets.
+    - May need extensive hyperparameter tuning and data augmentation for optimal performance on specific tasks.
+
+References / Source:
+    - Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. arXiv:1505.04597.
+    - U-Net GitHub Repository: https://github.com/zhixuhao/unet
+    - https://arxiv.org/pdf/1505.04597.pdf

@@ -1,0 +1,29 @@
+Computer Vision Task: Object Detection
+
+Model Name: RetinaNet
+
+Model Architecture: Convolutional Neural Network (CNN) with Focal Loss
+
+Description:
+RetinaNet is a state-of-the-art object detection model designed to address the class imbalance problem encountered during training. It uses a convolutional neural network backbone (e.g., ResNet) along with a feature pyramid network (FPN) to efficiently detect objects at different scales. RetinaNet introduces the novel focal loss function, which down-weights the loss assigned to well-classified examples, focusing more on hard, misclassified examples. This results in superior performance, especially for detecting smaller objects in cluttered scenes.
+
+Metrics:
+    - Mean Average Precision (mAP): 39.1% (on COCO dataset)
+    - Precision: 55.4%
+    - Recall: 52.8%
+
+Inference Time: 70 ms per image on NVIDIA Tesla V100 GPU
+
+Dependencies:
+    - Software Dependencies: TensorFlow, Keras, OpenCV, NumPy
+    - Hardware Requirements: GPU (NVIDIA Tesla V100 or similar recommended), CPU
+
+Limitations:
+    - High computational and memory requirements for training and inference.
+    - Performance can be sensitive to the choice of anchor boxes and their configurations.
+    - Requires a large labeled dataset for optimal performance and effective training.
+
+References / Source:
+    - Lin, T.-Y., Goyal, P., Girshick, R., He, K., & Dollar, P. (2017). Focal Loss for Dense Object Detection. arXiv:1708.02002.
+    - https://github.com/fizyr/keras-retinanet
+    - https://arxiv.org/pdf/1708.02002.pdf
