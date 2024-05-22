@@ -39,9 +39,9 @@ def extract_text(img_path, lang='eng'):
 
   return text
 
+if __name__ == "__main__":
+  # Example usage
+  image_path = 'complex_image.jpg'
+  extracted_text = extract_text(image_path)
 
-# Example usage
-image_path = 'complex_image.jpg'
-extracted_text = extract_text(image_path)
-
-print(f"Extracted Text: \n{extracted_text}")
+  print(f"Extracted Text: \n{extracted_text}")
