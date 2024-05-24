@@ -1,0 +1,29 @@
+
+Model Name: YOLOv5m
+
+Model Architecture: Convolutional Neural Network (CNN)
+
+Description:
+YOLOv5m (You Only Look Once version 5 Medium) is a medium-sized variant of the YOLOv5 object detection model, striking a balance between accuracy and computational efficiency. It is capable of detecting multiple objects in an image with high accuracy and moderate inference speed. YOLOv5m is suitable for applications requiring a compromise between the real-time performance of lighter models and the high accuracy of larger models, such as real-time surveillance, autonomous driving, and detailed image analysis.
+
+Metrics:
+
+    - Accuracy (mAP): 51.5% (mean Average Precision at IoU=0.5)
+    - Precision: 56.8%
+    - Recall: 54.1%
+    - F1 Score: 55.4%
+    - Inference Time: 8 ms per image on NVIDIA V100
+
+Dependencies:
+    - Software Dependencies: PyTorch, OpenCV, Numpy, Pillow, Matplotlib
+    - Hardware Requirements: GPU (NVIDIA V100 or similar recommended), CPU for inference with reduced performance
+
+Limitations:
+
+    - The model may struggle with detecting very small objects in high-resolution images.
+    - Performance may degrade in cases of heavy occlusion or overlapping objects.
+    - Requires a GPU for optimal performance and near real-time inference.
+
+References / Source:
+    https://github.com/ultralytics/yolov5
+    https://arxiv.org/abs/1506.02640
