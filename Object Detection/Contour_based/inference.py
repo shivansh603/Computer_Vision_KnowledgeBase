@@ -95,7 +95,7 @@ class ObjectDetector:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Object detection in images using edge detection and contour analysis.")
-    parser.add_argument("image_path", type=str, help="Path to the input image.")
+    parser.add_argument("--image_path", type=str, help="Path to the input image.")
     args = parser.parse_args()
 
     detector = ObjectDetector()
