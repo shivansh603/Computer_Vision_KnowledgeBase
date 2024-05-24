@@ -1,0 +1,21 @@
+Computer Vision Task: Edge Detection
+Model Name: Canny Edge Detector
+Model Architecture:
+This code implements the Canny Edge Detection algorithm, a multi-stage approach for detecting edges in images. It leverages OpenCV's cv2.Canny function for the core edge detection functionality.
+Description:
+The Canny Edge Detector aims to identify and highlight the boundaries between objects in an image. It performs well in various image processing tasks like object segmentation, feature extraction, and motion detection.
+Metrics:
+   - Precision: Measures the proportion of detected edges that correspond to actual object boundaries in the image (ideally high).
+   - Recall: Measures the proportion of actual object boundaries that are successfully detected as edges (ideally high).
+   - F1-Score: Harmonic mean of precision and recall, balancing both aspects.
+Computational Time: 1 ms per image on standard CPU
+Dependencies:
+    - Software Dependencies: OpenCV
+    - Hardware Requirements: CPU
+Limitations:
+    - Can be sensitive to noise in the image, leading to false edge detection.
+    - May struggle with very low contrast or unevenly lit images.
+    - Parameter tuning (thresholds) might be required for optimal performance on different image types.
+References:
+   - OpenCV Canny Edge Detection: https://docs.opencv.org/4.x/da/d5c/tutorial_canny_detector.html
+   - John Canny's paper: "A Computational Approach to Edge Detection" (1986)s
