@@ -87,14 +87,13 @@ class ObjectDetector:
             original_image = cv2.rectangle(original_image, (box[0], box[1]), (box[2], box[3]), (0, 255, 0), 2)
             original_image = cv2.rectangle(original_image, (x1, y1), (x2, y2), (0, 0, 255), 2)
 
-        cv2.imshow("Detected Objects", original_image)
-        cv2.waitKey(0)
+        cv2.imwrite("res.png", original_image)
 
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Object detection in images using edge detection and contour analysis.")
-    parser.add_argument("image_path", type=str, help="Path to the input image.")
+    parser.add_argument("--image_path", type=str, help="Path to the input image.")
     args = parser.parse_args()
 
     detector = ObjectDetector()
