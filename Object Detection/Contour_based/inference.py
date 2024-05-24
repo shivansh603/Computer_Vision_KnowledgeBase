@@ -87,6 +87,7 @@ class ObjectDetector:
             original_image = cv2.rectangle(original_image, (box[0], box[1]), (box[2], box[3]), (0, 255, 0), 2)
             original_image = cv2.rectangle(original_image, (x1, y1), (x2, y2), (0, 0, 255), 2)
 
+        cv2.imwrite("result_image.png",original_image)
         cv2.imshow("Detected Objects", original_image)
         cv2.waitKey(0)
 
