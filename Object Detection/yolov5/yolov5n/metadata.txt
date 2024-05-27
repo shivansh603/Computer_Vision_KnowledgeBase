@@ -1,0 +1,21 @@
+Computer Vision Task: Object Detection
+Model Name: YOLOv5n (Nano)
+Model Architecture: Convolutional Neural Network (CNN)
+Description: YOLOv5n is the smallest and most lightweight version of the YOLOv5 object detection model. It is designed for deployment on resource-constrained devices such as mobile phones, embedded systems, and edge devices. Despite its compact size, YOLOv5n offers reasonable performance for real-time object detection tasks.
+Metrics:
+
+Accuracy (mAP@0.5): 28.0% (on COCO val2017 dataset)
+Inference Time: 1.3 ms per image on NVIDIA V100
+
+Dependencies:
+
+Software Dependencies: PyTorch, OpenCV, Numpy, Pillow
+Hardware Requirements: GPU (NVIDIA V100 or similar recommended), CPU
+
+Limitations:
+
+Lower accuracy compared to larger YOLOv5 models due to the trade-off for smaller model size.
+May struggle with detecting very small or occluded objects.
+Limited performance on complex scenes with many objects.
+
+References / Source: https://github.com/ultralytics/yolov5

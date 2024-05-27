@@ -1,0 +1,21 @@
+Computer Vision Task: Object Detection
+Model Name: YOLOv5x (Extra-Large)
+Model Architecture: Convolutional Neural Network (CNN)
+Description: YOLOv5x is the largest and most accurate version of the YOLOv5 object detection model. It is designed for applications that require the highest possible accuracy and performance, such as autonomous driving, surveillance, and scientific research. YOLOv5x is suitable for deployment on high-performance computing systems with abundant computational resources.
+Metrics:
+
+Accuracy (mAP@0.5): 51.5% (on COCO val2017 dataset)
+Inference Time: 26.7 ms per image on NVIDIA
+
+Dependencies:
+
+Software Dependencies: PyTorch, OpenCV, Numpy, Pillow
+Hardware Requirements: GPU (NVIDIA V100 or similar high-end GPU recommended), CPU
+
+Limitations:
+
+Extremely large model size and high computational requirements, making it unsuitable for resource-constrained devices.
+May require multiple high-end GPUs for efficient training and inference.
+Performance may degrade on lower-end devices due to resource constraints.
+
+References / Source: https://github.com/ultralytics/yolov5

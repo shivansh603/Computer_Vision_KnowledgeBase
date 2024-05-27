@@ -1,0 +1,20 @@
+Computer Vision Task: Image Classification on Small Datasets
+
+Model Name: Vision Transformer (ViT) for Small Datasets
+
+Model Architecture: Transformer-based Neural Network with Modifications for Small Data
+
+Description: Implementations of the Vision Transformer architecture tailored for small datasets. ViT models typically require large amounts of data for pretraining, which can be challenging for small datasets. This subfolder may include modifications to the original ViT architecture, such as data augmentation techniques, transfer learning strategies, or architectural changes to improve performance on small datasets.
+
+Metrics: Metrics will depend on the specific implementation and the small dataset used for evaluation.
+
+Dependencies:
+Software Dependencies: PyTorch, TensorFlow, OpenCV, NumPy, Pillow, Matplotlib
+Hardware Requirements: GPU (NVIDIA Tesla T4 or similar recommended), CPU
+
+Limitations:
+
+Performance may be limited by the small size of the dataset.
+Generalization to larger datasets or different domains may be challenging.
+
+References / Source: 

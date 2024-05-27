@@ -1,0 +1,16 @@
+Computer Vision Task: Image Conversion
+Model Name: Grayscale Conversion
+Model Architecture: N/A (Direct pixel value conversion)
+Description:
+Grayscale conversion is a technique that transforms a color image into an image containing only shades of gray. This process involves discarding color information from each pixel and assigning a single intensity value based on a weighted combination of the original color channels. Grayscale conversion is a fundamental operation in computer vision and has various applications, including image processing, pattern recognition, and image analysis.
+Metrics:
+    - N/A (Grayscale conversion does not aim to improve image quality; it alters the color space)
+Computational Time: 1 ms per image on standard CPU
+Dependencies:
+    - Software Dependencies: OpenCV
+    - Hardware Requirements: CPU
+Limitations:
+   - Loss of color information, which can be crucial for tasks requiring color analysis.
+   - Grayscale images may contain less information compared to their color counterparts, potentially affecting subsequent processing steps.
+References / Source:
+    - OpenCV: https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html
