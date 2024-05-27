@@ -1,0 +1,31 @@
+Computer Vision Task: Object Detection
+Model Name: YOLOv8x
+
+Model Architecture: Convolutional Neural Network (CNN)
+
+Description: YOLOv8x is an extra-large object detection model, designed to deliver the highest accuracy among the YOLOv8 family. It is suitable for deployment on powerful systems where maximum performance is required, making it ideal for applications demanding the highest detection precision.
+
+Metrics:
+
+Accuracy (mAPval 50-95): 53.9%
+Inference Time:
+479.1 ms per image on CPU (ONNX)
+3.53 ms per image on A100 TensorRT
+Model Size: 68.2M parameters, 257.8B FLOPs
+Dependencies:
+
+Software Dependencies: PyTorch, OpenCV, Numpy, Pillow
+Hardware Requirements: GPU (A100 TensorRT recommended), CPU
+Limitations:
+
+Higher computational and memory requirements compared to smaller YOLOv8 models.
+Less suitable for deployment on resource-constrained devices.
+Increased inference time on less powerful hardware.
+References / Source:
+https://docs.ultralytics.com/tasks/detect/
+
+
+
+
+
+

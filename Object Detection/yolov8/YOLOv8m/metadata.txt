@@ -1,23 +1,30 @@
-Computer Vision Task: Object Detection and Segmentation
-Model Name: YOLOv8m-seg
+Computer Vision Task: Object Detection
+Model Name: YOLOv8m
+
 Model Architecture: Convolutional Neural Network (CNN)
-Description: YOLOv8m-seg is a medium-sized object detection and segmentation model, offering a balance between accuracy and speed. It is designed for deployment on devices with moderate computational resources, making it suitable for real-time object detection and segmentation tasks.
+
+Description: YOLOv8m is a medium-sized object detection model that offers a balance between accuracy and speed. It is designed for deployment on a range of devices, from resource-constrained to more powerful systems. Its performance makes it suitable for a wide variety of real-time object detection applications.
+
 Metrics:
 
-Accuracy (mAPbox 50-95): 49.9%
-Accuracy (mAPmask 50-95): 40.8%
-Inference Time: 317.0 ms per image on CPU (ONNX), 2.18 ms per image on A100 TensorRT
-Model Size: 27.3M parameters, 110.2B FLOPs
-
+Accuracy (mAPval 50-95): 50.2%
+Inference Time:
+234.7 ms per image on CPU (ONNX)
+1.83 ms per image on A100 TensorRT
+Model Size: 25.9M parameters, 78.9B FLOPs
 Dependencies:
 
 Software Dependencies: PyTorch, OpenCV, Numpy, Pillow
 Hardware Requirements: GPU (A100 TensorRT recommended), CPU
-
 Limitations:
 
-May struggle with detecting very small or occluded objects.
-Limited performance on complex scenes with many objects.
-Requires moderate computational resources, making it less suitable for highly resource-constrained devices.
-
+Lower accuracy compared to larger YOLOv8 models due to the trade-off for moderate model size.
+May struggle with detecting very small or occluded objects in highly complex scenes.
 References / Source:
+https://docs.ultralytics.com/tasks/detect/
+
+
+
+
+
+
