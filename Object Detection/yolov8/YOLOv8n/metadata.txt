@@ -1,0 +1,23 @@
+Computer Vision Task: Object Detection and Segmentation
+Model Name: YOLOv8n-seg
+Model Architecture: Convolutional Neural Network (CNN)
+Description: YOLOv8n-seg is a compact and efficient object detection and segmentation model, designed for deployment on resource-constrained devices. It offers a balance between accuracy and speed, making it suitable for real-time object detection and segmentation tasks.
+Metrics:
+
+Accuracy (mAPbox 50-95): 36.7%
+Accuracy (mAPmask 50-95): 30.5%
+Inference Time: 96.1 ms per image on CPU (ONNX), 1.21 ms per image on A100 TensorRT
+Model Size: 12.6M parameters, 3.4B FLOPs
+
+Dependencies:
+
+Software Dependencies: PyTorch, OpenCV, Numpy, Pillow
+Hardware Requirements: GPU (A100 TensorRT recommended), CPU
+
+Limitations:
+
+Lower accuracy compared to larger YOLOv8 models due to the trade-off for smaller model size.
+May struggle with detecting very small or occluded objects.
+Limited performance on complex scenes with many objects.
+
+References / Source: 

@@ -1,0 +1,26 @@
+Computer Vision Task: Object Segmentation
+
+Model Name: YOLOv8s-Seg (You Only Look Once version 8 for Segmentation)
+
+Model Architecture: Convolutional Neural Network (CNN)
+
+Description:
+YOLOv8s-Seg is a real-time object detection and segmentation model that extends the YOLOv8 architecture with a segmentation head. It leverages the strengths of YOLOv8 in detecting objects and adds the capability to segment objects at the pixel level. The model uses a single neural network to predict bounding boxes, class probabilities, and segmentation masks.
+
+Metrics:
+- Mean Average Precision (mAP) for segmentation: 36.8% (at IoU=0.5)
+
+Inference Time: 11.8 ms per image on NVIDIA A100 GPU, 1.47 ms per image on CPU (ONNX)
+
+Dependencies:
+- Software Dependencies: PyTorch, OpenCV, Numpy, Pillow, Matplotlib
+- Hardware Requirements: GPU (NVIDIA A100 or similar recommended), CPU
+
+Limitations:
+- Performance may degrade when segmenting very small objects in high-resolution images.
+- Requires substantial computational resources for training, though inference is highly optimized.
+- May need fine-tuning and data augmentation for specific datasets to achieve optimal performance.
+
+References / Source:
+
+https://docs.ultralytics.com/tasks/segment/

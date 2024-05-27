@@ -1,0 +1,20 @@
+Model Name: Image Classification from Scratch
+Model Architecture: Custom deep convolutional neural network based on Xception architecture
+Architecture Description: The model is a small version of the Xception network, designed for the binary classification task of distinguishing between images of cats and dogs. It consists of an entry block with a convolutional layer, batch normalization, and ReLU activation, followed by a series of separable convolutional blocks with residual connections. The final block is followed by a global average pooling layer, dropout, and a dense output layer with a single unit for binary classification.
+Metrics:
+
+Binary Accuracy: >90% (on validation set after 25 epochs)
+
+Dependencies:
+
+Software Dependencies: Keras, TensorFlow, NumPy, Matplotlib
+Hardware Requirements: GPU (recommended for faster training)
+
+Limitations:
+
+The model is designed specifically for the Cats vs Dogs binary classification task and may require architectural changes for other classification tasks or datasets.
+Performance may degrade on more complex or diverse datasets.
+The model's performance is dependent on the quality and diversity of the training data.
+
+References / Source:
+

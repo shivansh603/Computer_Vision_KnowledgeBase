@@ -1,0 +1,24 @@
+Computer Vision Task: Image Sharpening
+Model Name: Image Sharpener
+Model Architecture: Sharpening Kernel-based Filtering
+Description: The Image Sharpener class is a simple image processing model designed to enhance the sharpness and clarity of input images. It achieves this by applying a sharpening kernel, which is a 3x3 matrix that emphasizes the edges and details in the image. The sharpening process is implemented using OpenCV's filter2D function, which performs 2D convolution on the input image with the provided kernel.
+Metrics:
+
+The performance of the Image Sharpener can be evaluated qualitatively by visually inspecting the sharpened images and comparing them with the original input images.
+Quantitative metrics, such as Edge Preservation Index (EPI) or Spatial Frequency Response (SFR), can be used to measure the effectiveness of the sharpening process.
+
+Dependencies:
+
+Software Dependencies: OpenCV (cv2), NumPy
+Hardware Requirements: No specific hardware requirements, can run on CPU.
+
+Limitations:
+
+The sharpening process may amplify noise present in the input image.
+Excessive sharpening can lead to overshoot artifacts and unnatural-looking images.
+The fixed sharpening kernel may not be optimal for all types of images and sharpening requirements.
+The model does not have any adaptive or intelligent mechanisms to adjust the sharpening strength based on the input image characteristics.
+
+References / Source:
+
+https://www.analyticsvidhya.com/blog/2021/08/sharpening-an-image-using-opencv-library-in-python/

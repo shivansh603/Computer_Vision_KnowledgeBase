@@ -1,0 +1,21 @@
+Computer Vision Task: Motion Detection
+
+Model Name: MotionDetector
+
+Model Architecture: Contour-based Motion Detection
+
+Description: The MotionDetector class is a computer vision model designed to detect motion in video streams using contour detection techniques. It employs a frame differencing approach combined with contour analysis to identify and track moving objects in real-time. The model utilizes OpenCV for image processing and video capture.
+
+Metrics:
+
+Dependencies:
+Software Dependencies: OpenCV (cv2), NumPy
+Hardware Requirements: Camera or video source
+
+Limitations:
+Performance may degrade in low-light conditions or scenes with complex backgrounds.
+Accuracy may be affected by the choice of parameters, such as the threshold and minimum contour area.
+The model may struggle with detecting and tracking multiple objects simultaneously.
+Computational complexity increases with higher frame rates and video resolutions.
+
+References / Source:
