@@ -1,0 +1,18 @@
+{
+    "computer_vision_task": "Image Classification",
+    "model_name": "ConvMixer",
+    "description": "ConvMixer is a novel architecture that combines convolutional layers with Mixer blocks to achieve strong performance on image classification tasks. Unlike traditional CNNs that rely solely on convolutional layers, ConvMixer introduces Mixer blocks, which consist of channel-wise and spatial-wise mixing operations. This architecture enables ConvMixer to effectively capture both local and global features in images, leading to improved classification accuracy.",
+    "metrics": {
+        "accuracy": "93.7%",
+        "precision": "93.5%",
+        "recall": "93.2%",
+        "f1_score": "93.3%",
+        "inference_time": "3 ms per image on NVIDIA RTX 2080 Ti"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, NumPy, Pillow, Matplotlib",
+        "hardware_requirements": "GPU (NVIDIA RTX 2080 Ti or similar recommended), CPU"
+    },
+    "limitations": "- Performance may degrade on datasets with complex or cluttered backgrounds.\n- Fine-tuning may be necessary to achieve optimal performance on specific tasks or datasets.\n- Requires GPU acceleration for efficient training and inference.",
+    "references": "- https://arxiv.org/abs/2107.03296\n- https://github.com/locuslab/convmixer"
+}

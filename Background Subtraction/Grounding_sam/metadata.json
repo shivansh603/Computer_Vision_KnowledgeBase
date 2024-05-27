@@ -1,0 +1,16 @@
+{
+    "computer_vision_task": "Instance Segmentation and Image Grounding",
+    "model_name": "Grounding SAM (Segment Anything Model)",
+    "description": "Grounding SAM is a powerful machine learning model designed for instance segmentation and image grounding tasks. It combines the strengths of transformer-based architectures with multi-scale inputs and outputs, enabling it to segment objects of varying sizes accurately. The model comprises an encoder that extracts visual features from the input image and a decoder that generates instance segmentation masks conditioned on the input image and optional text prompts or point prompts. By leveraging language or human-provided guidance, Grounding SAM can effectively ground its predictions to specific objects or concepts of interest.",
+    "metrics": {
+        "mIoU": "51.6% (on COCO val)",
+        "AP": "50.4 (on COCO val)",
+        "inference_time": "~100ms per image on NVIDIA A100 GPU"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, NumPy, Pillow, OpenCV",
+        "hardware_requirements": "GPU (NVIDIA A100 or similar recommended for optimal performance)"
+    },
+    "limitations": "- Performance may degrade on highly complex scenes with numerous small objects or severe occlusions.\n- Requires a powerful GPU for efficient inference, especially for high-resolution images.\n- The model's performance is influenced by the quality and diversity of the training data.\n- Grounding performance may vary based on the specificity and ambiguity of the text or point prompts provided.",
+    "references": "Project Website: https://segment-anything.com/\nGitHub Repository: https://github.com/facebookresearch/segment-anything\nResearch Paper: https://arxiv.org/abs/2304.02643"
+}

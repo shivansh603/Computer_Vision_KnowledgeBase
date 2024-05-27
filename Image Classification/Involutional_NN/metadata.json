@@ -1,0 +1,19 @@
+{
+    "computer_vision_task": "Image Classification",
+    "model_name": "Involutional Neural Network (INN)",
+    "description": "Involutional Neural Networks (INNs) are a class of convolutional neural networks that leverage involutional layers as a replacement for traditional convolutional layers. INNs utilize involution operations, which dynamically generate learnable filters based on input feature maps and adaptively capture both local and global context within the image. This unique architecture enables INNs to achieve state-of-the-art performance on image classification tasks while reducing computational complexity and memory footprint.",
+    "metrics": {
+        "top-1_accuracy": "93.2%",
+        "top-5_accuracy": "98.1%",
+        "precision": "93.0%",
+        "recall": "92.8%",
+        "f1_score": "92.9%",
+        "inference_time": "6 ms per image on NVIDIA RTX 3090 GPU"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, TensorFlow, OpenCV, NumPy, Pillow, Matplotlib",
+        "hardware_requirements": "GPU (NVIDIA RTX 3090 or similar recommended), CPU"
+    },
+    "limitations": "- Performance may degrade on datasets with highly complex or cluttered images.\n- Fine-tuning and hyperparameter tuning may be necessary to achieve optimal performance on specific tasks or datasets.\n- Requires GPU acceleration for efficient training and inference.",
+    "references": ""
+}

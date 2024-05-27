@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Object Segmentation",
+    "model_name": "BASNet (Boundary-Aware Salient Object Detection Network)",
+    "description": "BASNet is designed for salient object detection, focusing on accurately segmenting objects from the background by incorporating boundary-awareness into its network architecture. BASNet uses a combination of a U-Net-like architecture for capturing spatial hierarchies and an additional boundary-enhancement module to refine the object boundaries. This approach ensures precise segmentation, making BASNet suitable for applications such as image editing, medical imaging, and autonomous driving.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "",
+        "inference_time": "50-100 ms per image on NVIDIA Tesla V100 GPU"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, NumPy, SciPy, Matplotlib",
+        "hardware_requirements": "GPU (NVIDIA Tesla V100 or similar recommended), CPU"
+    },
+    "limitations": "- High computational and memory requirements for training and inference.\n- Performance may degrade on images with complex backgrounds or low contrast between object and background.\n- Requires large, annotated datasets for optimal training.",
+    "references": "- Q. Hou, M.-M. Cheng, A. Borji, H. Jiang, and J. Feng, \"BASNet: Boundary-Aware Salient Object Detection,\" in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019.\n- BASNet GitHub Repository: https://github.com/NathanUA/BASNet\n- https://arxiv.org/pdf/1903.02719.pdf"
+}

@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Edge Detection",
+    "model_name": "Canny Edge Detector",
+    "description": "The Canny Edge Detector aims to identify and highlight the boundaries between objects in an image. It performs well in various image processing tasks like object segmentation, feature extraction, and motion detection.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "",
+        "inference_time": "1 ms per image on standard CPU"
+    },
+    "dependencies": {
+        "software_dependencies": "OpenCV",
+        "hardware_requirements": "CPU"
+    },
+    "limitations": "- Can be sensitive to noise in the image, leading to false edge detection.\n- May struggle with very low contrast or unevenly lit images.\n- Parameter tuning (thresholds) might be required for optimal performance on different image types.",
+    "references": "- OpenCV Canny Edge Detection: https://docs.opencv.org/4.x/da/d5c/tutorial_canny_detector.html\n- John Canny's paper: \"A Computational Approach to Edge Detection\" (1986)"
+}

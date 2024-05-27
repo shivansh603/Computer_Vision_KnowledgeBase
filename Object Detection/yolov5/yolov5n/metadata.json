@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Object Detection",
+    "model_name": "YOLOv5n (Nano)",
+    "description": "YOLOv5n is the smallest and most lightweight version of the YOLOv5 object detection model. It is designed for deployment on resource-constrained devices such as mobile phones, embedded systems, and edge devices. Despite its compact size, YOLOv5n offers reasonable performance for real-time object detection tasks.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "28.0% (on COCO val2017 dataset)",
+        "inference_time": "1.3 ms per image on NVIDIA V100"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, Numpy, Pillow",
+        "hardware_requirements": "GPU (NVIDIA V100 or similar recommended), CPU"
+    },
+    "limitations": "- Lower accuracy compared to larger YOLOv5 models due to the trade-off for smaller model size.\n- May struggle with detecting very small or occluded objects.\n- Limited performance on complex scenes with many objects.",
+    "references": "https://github.com/ultralytics/yolov5"
+}

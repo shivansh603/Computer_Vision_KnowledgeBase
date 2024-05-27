@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Object Detection",
+    "model_name": "YOLOv5s (Small)",
+    "description": "YOLOv5s is a small version of the YOLOv5 object detection model, offering a balance between model size and performance. It is suitable for deployment on devices with limited computational resources, such as embedded systems and mobile devices, while providing higher accuracy compared to the YOLOv5n model.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "37.4% (on COCO val2017 dataset)",
+        "inference_time": "3.6 ms per image on NVIDIA V100"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, Numpy, Pillow",
+        "hardware_requirements": "GPU (NVIDIA V100 or similar recommended), CPU"
+    },
+    "limitations": "- Lower accuracy compared to larger YOLOv5 models due to the trade-off for smaller model size.\n- May struggle with detecting very small or occluded objects in complex scenes.\n- Performance may degrade in real-time applications on low-end devices.",
+    "references": "https://github.com/ultralytics/yolov5"
+}

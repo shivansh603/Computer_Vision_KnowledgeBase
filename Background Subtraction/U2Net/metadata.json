@@ -1,0 +1,18 @@
+{
+    "computer_vision_task": "Background Subtraction",
+    "model_name": "U2-Net",
+    "description": "U2-Net is a deep learning model specifically designed for salient object detection. It excels in detecting and segmenting salient objects in images by utilizing a U-shaped architecture with nested U-blocks. This design allows for efficient feature extraction and integration at multiple scales, making U^2-Net highly effective for fine-grained object segmentation tasks.",
+    "metrics": {
+        "accuracy": "91.5%",
+        "precision": "92.1%",
+        "recall": "91.0%",
+        "f1_score": "91.5%",
+        "inference_time": "20 ms per image on NVIDIA GTX 1080"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, Numpy, Pillow, Matplotlib",
+        "hardware_requirements": "GPU (NVIDIA GTX 1080 or similar recommended), CPU"
+    },
+    "limitations": "- Performance may degrade on images with very complex backgrounds or low contrast between the object and background.\n- Requires a GPU for optimal performance and real-time inference.\n- The model's performance is dependent on the quality and diversity of the training data.",
+    "references": "- https://github.com/xuebinqin/U-2-Net\n- https://arxiv.org/abs/2005.09007"
+}

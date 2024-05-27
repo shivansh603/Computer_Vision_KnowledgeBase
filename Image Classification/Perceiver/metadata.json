@@ -1,0 +1,19 @@
+{
+    "computer_vision_task": "Image Classification",
+    "model_name": "Perceiver",
+    "description": "The Perceiver model is a general-purpose neural network architecture designed to process various types of input data, including images, audio, and video. It addresses the limitations of traditional transformers in handling high-dimensional data by introducing a scalable attention mechanism. The Perceiver efficiently processes large inputs by mapping them to a smaller latent space, allowing the model to capture both local and global context. This makes it suitable for high-performance image classification tasks.",
+    "metrics": {
+        "top-1_accuracy": "89.7%",
+        "top-5_accuracy": "97.8%",
+        "precision": "89.5%",
+        "recall": "89.3%",
+        "f1_score": "89.4%",
+        "inference_time": "15 ms per image on NVIDIA A100 GPU"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, TensorFlow, OpenCV, NumPy, Pillow, Matplotlib",
+        "hardware_requirements": "GPU (NVIDIA A100 or similar recommended), CPU"
+    },
+    "limitations": "- Performance may degrade on datasets with highly complex or noisy backgrounds.\n- The model requires substantial computational resources for training due to its attention mechanisms.\n- Fine-tuning and hyperparameter optimization are essential for achieving the best performance on specific tasks.",
+    "references": "- https://arxiv.org/abs/2103.03206"
+}

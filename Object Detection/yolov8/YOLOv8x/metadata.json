@@ -1,0 +1,16 @@
+{
+    "computer_vision_task": "Object Detection",
+    "model_name": "YOLOv8x",
+    "description": "YOLOv8x is an extra-large object detection model, designed to deliver the highest accuracy among the YOLOv8 family. It is suitable for deployment on powerful systems where maximum performance is required, making it ideal for applications demanding the highest detection precision.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "53.9%"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, Numpy, Pillow",
+        "hardware_requirements": "GPU (A100 TensorRT recommended), CPU"
+    },
+    "limitations": "Higher computational and memory requirements compared to smaller YOLOv8 models.\nLess suitable for deployment on resource-constrained devices.\nIncreased inference time on less powerful hardware.",
+    "references": "https://docs.ultralytics.com/tasks/detect/"
+}

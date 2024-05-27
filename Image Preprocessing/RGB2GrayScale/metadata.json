@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Image Conversion",
+    "model_name": "Grayscale Conversion",
+    "description": "Grayscale conversion is a technique that transforms a color image into an image containing only shades of gray. This process involves discarding color information from each pixel and assigning a single intensity value based on a weighted combination of the original color channels. Grayscale conversion is a fundamental operation in computer vision and has various applications, including image processing, pattern recognition, and image analysis.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "",
+        "inference_time": "1 ms per image on standard CPU"
+    },
+    "dependencies": {
+        "software_dependencies": "OpenCV",
+        "hardware_requirements": "CPU"
+    },
+    "limitations": "- Loss of color information, which can be crucial for tasks requiring color analysis.\n- Grayscale images may contain less information compared to their color counterparts, potentially affecting subsequent processing steps.",
+    "references": "- OpenCV: https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html"
+}

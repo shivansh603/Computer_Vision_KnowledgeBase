@@ -1,0 +1,19 @@
+{
+    "computer_vision_task": "Image Classification",
+    "model_name": "Swin Transformer",
+    "description": "Swin Transformer (Shifted Window Transformer) is a cutting-edge neural network architecture designed for image classification and other vision tasks. It introduces a hierarchical structure with shifted windows, which allows for efficient computation while capturing fine-grained and global image features. By partitioning images into non-overlapping local windows and shifting the windows at different layers, Swin Transformer achieves state-of-the-art performance on various benchmarks, outperforming traditional CNNs and other transformer-based models in capturing both local and global context.",
+    "metrics": {
+        "top-1_accuracy": "87.3% (on ImageNet-1K)",
+        "top-5_accuracy": "98.0% (on ImageNet-1K)",
+        "precision": "87.0%",
+        "recall": "86.8%",
+        "f1_score": "86.9%",
+        "inference_time": "10 ms per image on NVIDIA Tesla T4 GPU"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, TensorFlow, OpenCV, NumPy, Pillow, Matplotlib",
+        "hardware_requirements": "GPU (NVIDIA Tesla T4 or similar recommended), CPU"
+    },
+    "limitations": "- Performance may degrade on datasets with extremely small or highly overlapping objects.\n- Requires extensive computational resources for pretraining on large-scale datasets.\n- Hyperparameter tuning is essential for adapting the model to specific tasks or datasets.\n- GPU acceleration is necessary for efficient training and inference.",
+    "references": "- https://arxiv.org/pdf/2103.14030\n- https://github.com/microsoft/Swin-Transformer"
+}

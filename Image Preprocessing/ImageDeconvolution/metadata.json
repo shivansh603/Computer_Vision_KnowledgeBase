@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Image Preprocessing",
+    "model_name": "Image Deconvolution",
+    "description": "Image Deconvolution is a technique used in image processing to reverse the effects of blurring and recover the original image. Blurring can occur due to various factors, such as camera motion, defocus, or atmospheric disturbance. Deconvolution algorithms aim to estimate the original image by mitigating the blur effect, enhancing the sharpness and clarity of the image. This technique is crucial in fields such as astronomy, microscopy, and medical imaging, where image clarity is paramount.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "",
+        "inference_time": "50-100 ms per image on standard CPU"
+    },
+    "dependencies": {
+        "software_dependencies": "OpenCV, NumPy, SciPy, PyTorch/TensorFlow (for advanced models), Matplotlib",
+        "hardware_requirements": "CPU (GPU recommended for complex and large-scale images)"
+    },
+    "limitations": "- Performance depends heavily on the accuracy of the blur kernel estimation.\n- Computational cost can be high for large images or advanced deconvolution algorithms.\n- May introduce artifacts if the blur kernel is inaccurately estimated or if the algorithm parameters are not well-tuned.",
+    "references": "- Gonzalez, R. C., & Woods, R. E. (2002). Digital Image Processing (3rd Edition). Prentice Hall.\n- https://docs.opencv.org/4.x/d4/d13/tutorial_py_filtering.html\n- Jansson, P. A. (1997). Deconvolution of Images and Spectra. Academic Press."
+}

@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Object Detection and Segmentation",
+    "model_name": "YOLOv8l-seg",
+    "description": "YOLOv8l-seg is a large-sized object detection and segmentation model, offering high accuracy and robustness. It is designed for deployment on devices with significant computational resources, making it suitable for demanding object detection and segmentation tasks.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "Accuracy (mAPbox 50-95): 52.3%, Accuracy (mAPmask 50-95): 42.6%",
+        "inference_time": "572.4 ms per image on CPU (ONNX), 2.79 ms per image on A100 TensorRT"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, Numpy, Pillow",
+        "hardware_requirements": "GPU (A100 TensorRT recommended), CPU"
+    },
+    "limitations": "- Requires significant computational resources, making it less suitable for resource-constrained devices.\n- May struggle with real-time performance on lower-end hardware.\n- Higher model size and computational requirements may lead to increased memory usage and energy consumption.",
+    "references": "https://docs.ultralytics.com/tasks/segment/"
+}

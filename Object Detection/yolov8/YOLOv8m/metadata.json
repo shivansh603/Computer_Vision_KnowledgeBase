@@ -1,0 +1,16 @@
+{
+    "computer_vision_task": "Object Detection",
+    "model_name": "YOLOv8m",
+    "description": "YOLOv8m is a medium-sized object detection model that offers a balance between accuracy and speed. It is designed for deployment on a range of devices, from resource-constrained to more powerful systems. Its performance makes it suitable for a wide variety of real-time object detection applications.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "50.2%"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, Numpy, Pillow",
+        "hardware_requirements": "GPU (A100 TensorRT recommended), CPU"
+    },
+    "limitations": "Lower accuracy compared to larger YOLOv8 models due to the trade-off for moderate model size.\nMay struggle with detecting very small or occluded objects in highly complex scenes.",
+    "references": "https://docs.ultralytics.com/tasks/detect/"
+}

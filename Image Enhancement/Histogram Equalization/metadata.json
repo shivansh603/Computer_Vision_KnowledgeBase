@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Image Enhancement",
+    "model_name": "Histogram Equalization",
+    "description": "Histogram Equalization is a fundamental image enhancement technique designed to improve the contrast of an image. It works by redistributing the intensity values of the image such that the histogram of the output image is approximately uniform. This method enhances the visibility of details in images with low contrast, making it suitable for applications such as medical imaging, remote sensing, and photographic processing.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "",
+        "inference_time": "1 ms per image on standard CPU"
+    },
+    "dependencies": {
+        "software_dependencies": "OpenCV, NumPy, SciPy, Pillow",
+        "hardware_requirements": "CPU"
+    },
+    "limitations": "- Can result in unnatural-looking images if the original image has a lot of noise.\n- May lead to over-enhancement in some regions, causing loss of detail.\n- Performance may degrade on images with extreme brightness variations or very low contrast.",
+    "references": "- https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html\n- https://en.wikipedia.org/wiki/Histogram_equalization"
+}

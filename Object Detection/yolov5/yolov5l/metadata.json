@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Object Detection",
+    "model_name": "YOLOv5l (Large)",
+    "description": "YOLOv5l is the large version of the YOLOv5 object detection model, offering high accuracy and performance for demanding applications. It is suitable for deployment on systems with powerful computational resources, such as high-end desktop computers, servers, and cloud environments.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "49.0% (on COCO val2017 dataset)",
+        "inference_time": "16.8 ms per image on NVIDIA V100"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, Numpy, Pillow",
+        "hardware_requirements": "GPU (NVIDIA V100 or similar recommended), CPU"
+    },
+    "limitations": "- Larger model size and computational requirements compared to smaller YOLOv5 models.\n- May require a powerful GPU for efficient inference, especially in real-time applications.\n- Performance may degrade on low-end devices due to resource constraints.",
+    "references": "https://github.com/ultralytics/yolov5"
+}

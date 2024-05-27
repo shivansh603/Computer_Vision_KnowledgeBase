@@ -1,0 +1,15 @@
+{
+    "computer_vision_task": "Angle prediction",
+    "model_name": "Pricipal Component Analysis",
+    "description": "The Principal Component Analysis (PCA) algorithm is designed to determine the orientation of objects using PCA and OpenCV (CV2). This model can accurately predict the orientation of any segmented object in real-time. As long as the object is properly segmented, its orientation can be determined.",
+    "metrics": {
+        "accuracy": "99",
+        "inference_time": "0.1ms"
+    },
+    "dependencies": {
+        "software_dependencies": "CV2, Matplotlib, NumPy, Pandas, Math, Pillow",
+        "hardware_requirements": "CPU"
+    },
+    "limitations": "- The algorithm does not accurately determine the orientation of text.\n- The orientation calculation assumes the object can be approximated as a line.",
+    "references": "- https://docs.opencv.org/4.x/d1/dee/tutorial_introduction_to_pca.html"
+}

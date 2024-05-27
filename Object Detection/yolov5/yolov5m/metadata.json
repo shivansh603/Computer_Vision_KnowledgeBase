@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Object Detection",
+    "model_name": "YOLOv5m (Medium)",
+    "description": "YOLOv5m is the medium-sized version of the YOLOv5 object detection model, offering a balance between model size, performance, and accuracy. It is suitable for deployment on devices with moderate computational resources, such as desktop computers and edge servers, providing higher accuracy compared to the smaller YOLOv5 models.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "45.4% (on COCO val2017 dataset)",
+        "inference_time": "8.2 ms per image on NVIDIA V100"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, Numpy, Pillow",
+        "hardware_requirements": "GPU (NVIDIA V100 or similar recommended), CPU"
+    },
+    "limitations": "- Larger model size compared to YOLOv5s and YOLOv5n, requiring more computational resources.\n- May struggle with detecting very small objects in high-resolution images.\n- Performance may degrade in real-time applications on lower-end devices.",
+    "references": "https://github.com/ultralytics/yolov5"
+}

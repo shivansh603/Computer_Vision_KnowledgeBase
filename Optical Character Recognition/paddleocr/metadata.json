@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Optical Character Recognition (OCR)",
+    "model_name": "PaddleOCR",
+    "description": "PaddleOCR is an open-source optical character recognition (OCR) framework developed by PaddlePaddle, an AI platform from Baidu. It provides a comprehensive set of tools and pre-trained models for text detection, recognition, and layout analysis in images and documents. PaddleOCR leverages deep learning architectures such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs) to achieve high accuracy in text extraction and recognition tasks. It supports multiple languages, various text orientations, and can handle complex scenarios such as scene text, handwritten text, and document analysis.",
+    "metrics": {
+        "precision": "85.0%",
+        "recall": "",
+        "accuracy": "95.0%",
+        "inference_time": "Varies depending on model and hardware, typically ranging from milliseconds to seconds per image."
+    },
+    "dependencies": {
+        "software_dependencies": "PaddlePaddle, OpenCV, NumPy, Matplotlib",
+        "hardware_requirements": "CPU or GPU (GPU recommended for faster inference)"
+    },
+    "limitations": "- Performance may vary depending on the quality and complexity of the input images.\n- Accuracy can be affected by variations in text size, font, orientation, and background clutter.\n- Fine-tuning and customization may be required for specific use cases or domains.",
+    "references": "- PaddleOCR GitHub Repository: https://github.com/PaddlePaddle/PaddleOCR"
+}

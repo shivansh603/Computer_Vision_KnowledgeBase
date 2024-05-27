@@ -1,0 +1,17 @@
+{
+    "computer_vision_task": "Image Classification without Attention Mechanism",
+    "model_name": "Vision Transformer (ViT) without Attention",
+    "description": "This subfolder likely contains implementations of the Vision Transformer architecture without the self-attention mechanism. The self-attention mechanism is a key component of the transformer architecture, responsible for capturing long-range dependencies. However, some research has explored alternative approaches to model long-range dependencies in ViT without explicit self-attention layers, potentially improving efficiency or providing different inductive biases.",
+    "metrics": {
+        "precision": "",
+        "recall": "",
+        "accuracy": "Metrics will depend on the specific implementation and evaluation dataset.",
+        "inference_time": ""
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, TensorFlow, OpenCV, NumPy, Pillow, Matplotlib",
+        "hardware_requirements": "GPU (NVIDIA Tesla T4 or similar recommended), CPU"
+    },
+    "limitations": "Performance may be lower compared to the standard ViT with self-attention, particularly for tasks that require capturing long-range dependencies. Potential limitations in modeling global context or complex relationships in images.",
+    "references": "References will vary based on the specific implementations and research papers included in this subfolder."
+}

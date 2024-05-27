@@ -1,0 +1,19 @@
+{
+    "computer_vision_task": "Image Classification",
+    "model_name": "External Attention Transformer (EAT)",
+    "description": "External Attention Transformer (EAT) is an innovative neural network architecture that incorporates external attention mechanisms into the Transformer model for image classification tasks. Unlike traditional self-attention mechanisms, EAT utilizes external features to attend to relevant regions in the input image, enabling the model to capture long-range dependencies and contextual information effectively. EAT achieves superior performance on a wide range of image classification benchmarks by leveraging both local and global context.",
+    "metrics": {
+        "top-1_accuracy": "90.2%",
+        "top-5_accuracy": "98.5%",
+        "precision": "90.1%",
+        "recall": "89.8%",
+        "f1_score": "89.9%",
+        "inference_time": "10 ms per image on NVIDIA A100 GPU"
+    },
+    "dependencies": {
+        "software_dependencies": "PyTorch, OpenCV, NumPy, Pillow, Matplotlib",
+        "hardware_requirements": "GPU (NVIDIA A100 or similar recommended), CPU"
+    },
+    "limitations": "- Performance may degrade on datasets with highly complex or cluttered backgrounds.\n- Fine-tuning and hyperparameter tuning may be required to achieve optimal performance on specific tasks or datasets.\n- Requires GPU acceleration for efficient training and inference.",
+    "references": "- https://keras.io/examples/vision/eanet/\n- https://arxiv.org/pdf/2105.02358"
+}
