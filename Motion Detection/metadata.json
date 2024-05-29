@@ -1,0 +1,8 @@
+{
+    "name": "Motion Detection",
+    "description": "Detect moving objects in a sequence of images or video, highlighting areas of change and movement over time.",
+    "usecase": "Used in video surveillance, traffic monitoring, and security systems.",
+    "challenges": "Challenges include differentiating between relevant motion and noise, handling shadows, and robustness to changing environmental conditions.",
+    "popular_methods": "Common methods include frame differencing, background subtraction, and optical flow-based approaches."
+  }
+  

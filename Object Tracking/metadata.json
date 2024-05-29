@@ -1,0 +1,8 @@
+{
+    "name": "Object Tracking",
+    "description": "Follow and update the position of objects as they move through video frames, maintaining their identity over time.",
+    "usecase": "Used in surveillance systems, autonomous vehicles, and sports analysis.",
+    "challenges": "Challenges include occlusion, object appearance changes, and handling multiple objects.",
+    "popular_methods": "Common methods include Kalman filters, particle filters, and deep learning-based approaches."
+  }
+  

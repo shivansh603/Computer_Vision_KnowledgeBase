@@ -1,0 +1,8 @@
+{
+    "name": "Optical Flow",
+    "description": "Detect the movement of objects between video frames, showing their direction and speed across the sequence.",
+    "usecase": "Used in video stabilization, object tracking, and action recognition.",
+    "challenges": "Challenges include handling occlusions, camera motion, and complex scenes.",
+    "popular_methods": "Common methods include Lucas-Kanade, Horn-Schunck, and deep learning-based approaches."
+  }
+  

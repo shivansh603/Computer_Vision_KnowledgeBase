@@ -1,0 +1,8 @@
+{
+    "name": "Background Subtraction",
+    "description": "Separate moving objects from the static background in video sequences, highlighting changes and movements.",
+    "usecase": "Used in video surveillance, object tracking, and motion analysis.",
+    "challenges": "Challenges include varying illumination, shadows, and dynamic backgrounds.",
+    "popular_methods": "Common methods include Gaussian mixture models (GMM), background subtraction algorithms, and deep learning-based approaches."
+  }
+  

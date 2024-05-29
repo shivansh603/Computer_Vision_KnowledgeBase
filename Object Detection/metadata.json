@@ -1,0 +1,8 @@
+{
+    "name": "Object Detection",
+    "description": "Identify and locate objects within an image, drawing bounding boxes around each detected item for clarity.",
+    "usecase": "Used in autonomous vehicles, surveillance systems, and object tracking applications.",
+    "challenges": "Challenges include handling occlusions, scale variations, and object localization accuracy.",
+    "popular_methods": "Common methods include region-based convolutional neural networks (R-CNN), You Only Look Once (YOLO), and Single Shot MultiBox Detector (SSD)."
+  }
+  
