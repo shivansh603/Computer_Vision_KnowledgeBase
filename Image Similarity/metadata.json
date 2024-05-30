@@ -1,6 +1,6 @@
 {
     "name": "Image Similarity",
-    "description": "Compare images to determine how similar or different they are, useful for matching and retrieving similar images.",
+    "description": "Image similarity is a technique in computer vision used to measure how similar two images are based on their visual content. It is crucial in applications such as image retrieval, duplicate detection, and content-based image search. Popular methods include feature extraction using SIFT (Scale-Invariant Feature Transform), SURF (Speeded-Up Robust Features), and deep learning approaches like CNNs and Siamese networks.",
     "usecase": "Used in content-based image retrieval, image clustering, and duplicate image detection.",
     "challenges": "Challenges include designing effective similarity metrics, handling scale and viewpoint variations, and computational efficiency.",
     "popular_methods": "Common methods include feature extraction (e.g., SIFT, SURF), deep learning-based approaches, and metric learning."

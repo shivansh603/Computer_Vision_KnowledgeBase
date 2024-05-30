@@ -1,6 +1,6 @@
 {
     "name": "Image Enhancement",
-    "description": "Improve the quality and visual appearance of images using techniques like sharpening, denoising, and contrast adjustment.",
+    "description": "Image enhancement is a technique in image processing used to improve the visual quality of images. It is crucial in applications such as medical imaging, satellite imagery, and photography. Popular methods include histogram equalization, contrast stretching, and deep learning approaches like GANs (Generative Adversarial Networks) and CNNs.",
     "usecase": "Used in medical imaging, satellite imagery, and improving the visual quality of consumer photographs.",
     "challenges": "Challenges include preserving image details while removing noise, avoiding artifacts, and subjective quality assessment.",
     "popular_methods": "Common methods include histogram equalization, bilateral filtering, wavelet transforms, and deep learning-based approaches."

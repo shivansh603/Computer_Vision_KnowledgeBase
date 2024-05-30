@@ -1,6 +1,6 @@
 {
     "name": "Object Segmentation",
-    "description": "Partition an image into distinct segments, isolating objects from the background for detailed analysis.",
+    "description": "Object segmentation is a computer vision technique used to partition an image into multiple segments or regions corresponding to different objects. It is crucial in applications such as medical imaging, autonomous driving, and image editing. Popular methods include semantic segmentation, instance segmentation, and panoptic segmentation.Some of the popular models include U-Net, Mask R-CNN, and Yolov8 Segmentation.",
     "usecase": "Used in medical image analysis, autonomous navigation, and image editing applications.",
     "challenges": "Challenges include accurate boundary delineation, handling complex backgrounds, and scalability to large images.",
     "popular_methods": "Common methods include semantic segmentation (e.g., U-Net), instance segmentation (e.g., Mask R-CNN), and graph-based approaches."
