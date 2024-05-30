@@ -1,6 +1,6 @@
 {
     "name": "Optical Flow",
-    "description": "Optical flow is a computer vision technique used to estimate the motion of objects within a video sequence. It is crucial in applications such as motion tracking, video stabilization, and action recognition. Optical flow algorithms analyze the apparent motion of pixels between consecutive frames to infer the velocity field of objects in the scene. Popular methods include Lucas-Kanade method, Horn-Schunck method, and deep learning-based approaches such as FlowNet. ",
+    "description": "Optical flow is a computer vision technique used to estimate the motion of objects within a video sequence. \n It is crucial in applications such as motion tracking, video stabilization, and action recognition.\n  Optical flow algorithms analyze the apparent motion of pixels between consecutive frames to infer the velocity field of objects in the scene. \n Popular methods include Lucas-Kanade method, Horn-Schunck method, and deep learning-based approaches such as FlowNet. ",
     "usecase": "Used in video stabilization, object tracking, and action recognition.",
     "challenges": "Challenges include handling occlusions, camera motion, and complex scenes.",
     "popular_methods": "Common methods include Lucas-Kanade, Horn-Schunck, and deep learning-based approaches."

@@ -1,6 +1,6 @@
 {
     "name": "Image Classification",
-    "description": "Image classification is a technique in computer vision used to categorize images into predefined classes. It is crucial in applications such as facial recognition, medical imaging, and autonomous driving. Popular methods include Convolutional Neural Networks (CNNs), transfer learning, and deep learning approaches.",
+    "description": "Image classification is a technique in computer vision used to categorize images into predefined classes. \n It is crucial in applications such as facial recognition, medical imaging, and autonomous driving. \n Popular methods include Convolutional Neural Networks (CNNs), transfer learning, and deep learning approaches.",
     "usecase": "Used in image search engines, medical diagnosis, and quality control in manufacturing.",
     "challenges": "Challenges include overfitting, handling large datasets, and class imbalance.",
     "popular_methods": "Common methods include convolutional neural networks (CNNs) and transfer learning."
