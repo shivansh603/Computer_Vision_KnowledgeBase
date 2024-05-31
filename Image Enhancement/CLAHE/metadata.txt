@@ -1,0 +1,26 @@
+Computer Vision Task: Image Enhancement
+
+Model Name: Contrast Limited Adaptive Histogram Equalization (CLAHE)
+
+Model Architecture: CLAHE Algorithm
+
+Description:
+Contrast Limited Adaptive Histogram Equalization (CLAHE) is an advanced image enhancement technique aimed at improving contrast while avoiding over-enhancement. Unlike traditional histogram equalization, CLAHE operates locally, dividing the image into smaller regions and applying histogram equalization independently to each region. It limits the amplification of the contrast to prevent excessive enhancement, resulting in more natural-looking images. CLAHE is particularly effective in scenarios with uneven illumination or significant variations in contrast.
+
+Metrics:
+- Contrast Improvement Index: 1.5 (average improvement in visual contrast, enhanced by adaptive local processing)
+- Mean Brightness Deviation: Minimal impact on mean brightness due to local contrast enhancement
+
+Computational Time: 10 ms per image on standard CPU
+
+Dependencies:
+- Software Dependencies: OpenCV, NumPy, SciPy, Pillow
+- Hardware Requirements: CPU
+
+Limitations:
+- Computational overhead due to local processing may impact real-time applications.
+- Tuning parameters for CLAHE may require careful adjustment to balance contrast enhancement and preservation of image details.
+- Sensitive to noise, which can lead to artifacts in the enhanced image.
+
+References / Source:
+- https://en.wikipedia.org/wiki/Adaptive_histogram_equalization#Contrast_Limited_AHE_(CLAHE)
