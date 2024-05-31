@@ -1,6 +1,6 @@
 {
     "name": "Video Classification",
-    "description": "Categorize video clips into different classes based on their content, helping to identify various activities or scenes.",
+    "description": "Video classification is a machine learning task that involves categorizing videos into predefined classes or categories based on their content.\n It is crucial in applications such as action recognition, event detection, and video content analysis. Video classification algorithms analyze temporal patterns and spatial features within video frames to make predictions about the content of the video. \n Popular methods include 2D convolutional neural networks (CNNs) applied to individual frames, 3D CNNs that capture temporal information directly, and recurrent neural networks (RNNs) or long short-term memory networks (LSTMs) that model sequential data.",
     "usecase": "Used in action recognition, video recommendation systems, and video content analysis.",
     "challenges": "Challenges include temporal modeling, handling long sequences, and limited training data.",
     "popular_methods": "Common methods include 3D convolutional neural networks (3D CNNs), recurrent neural networks (RNNs), and attention mechanisms."

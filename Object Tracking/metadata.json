@@ -1,6 +1,6 @@
 {
     "name": "Object Tracking",
-    "description": "Follow and update the position of objects as they move through video frames, maintaining their identity over time.",
+    "description": "Object tracking is a computer vision technique used to follow the movement of objects across consecutive video frames. \n It is crucial in applications such as video surveillance, human-computer interaction, and sports analytics. \n Popular methods include traditional techniques like Kalman filters, particle filters, and correlation-based tracking, as well as modern deep learning approaches such as Siamese networks and recurrent neural networks (RNNs).",
     "usecase": "Used in surveillance systems, autonomous vehicles, and sports analysis.",
     "challenges": "Challenges include occlusion, object appearance changes, and handling multiple objects.",
     "popular_methods": "Common methods include Kalman filters, particle filters, and deep learning-based approaches."

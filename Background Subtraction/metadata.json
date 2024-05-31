@@ -1,6 +1,6 @@
 {
     "name": "Background Subtraction",
-    "description": "Separate moving objects from the static background in video sequences, highlighting changes and movements.",
+    "description": "Background subtraction is a technique in computer vision used to identify moving objects against a static background in video sequences. \n It is crucial in video surveillance, object tracking, and motion analysis. \n  Popular methods include Gaussian Mixture Models (GMM), simple and adaptive subtraction algorithms, and deep learning approaches like CNNs and RNNs.",
     "usecase": "Used in video surveillance, object tracking, and motion analysis.",
     "challenges": "Challenges include varying illumination, shadows, and dynamic backgrounds.",
     "popular_methods": "Common methods include Gaussian mixture models (GMM), background subtraction algorithms, and deep learning-based approaches."
