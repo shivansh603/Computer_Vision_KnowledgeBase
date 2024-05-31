@@ -3,6 +3,7 @@
     "description": "Image preprocessing is a technique in image processing used to prepare raw images for further analysis. \n It is crucial in applications such as computer vision, machine learning, and medical imaging. \n Popular methods include normalization, resizing, noise reduction, and data augmentation.",
     "usecase": "Used as a preprocessing step in various computer vision tasks, including image classification, object detection, and segmentation.",
     "challenges": "Challenges include determining the appropriate preprocessing steps for specific tasks and avoiding information loss during preprocessing.",
-    "popular_methods": "Common techniques include resizing, normalization, histogram equalization, and noise reduction filters."
+    "popular_methods": "Common techniques include resizing, normalization, histogram equalization, and noise reduction filters.",
+    "image": "https://storage.googleapis.com/cv_task_description/image_preprocessing.png?Expires=1717246581&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=FNCoDdEWo7TUolI7DXJWMqc1zpPapHaM6i6CdK3nRktxuU1bkB18e%2B5BhXajegteFxA3zKozhOpPLXO%2F4mM%2BpkcQDFRF3X4KLfKQxlHZdNNWWmm87YC1dlSK0h5wyw8skxauw%2B76EXMIY5ZNUachsK1ZbIYtvRL0aJpQ2H4krkgt9%2FsehPRSsVIe3VfewuR49AzdDVOyLBYpfHAf5j9QvaMi3iZhDMfCwd61HcgSziTithoacckDBXXMi91oMPAFZwseCtLwCHC6DP3AkthBqxqVO14D37Wp5cuOp9pzP5oydtTVsnltSGfP7s8mU8Xc29BlyYL6v2YD8gBlpzpvbg%3D%3D"
   }
   

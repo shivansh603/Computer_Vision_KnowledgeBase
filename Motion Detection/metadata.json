@@ -3,6 +3,7 @@
     "description": "Motion detection is a technique in computer vision used to identify and track movement within a video sequence. \n It is crucial in applications such as video surveillance, activity recognition, and human-computer interaction.\n Popular methods include background subtraction algorithms, optical flow techniques, and deep learning-based approaches like convolutional neural networks (CNNs) and recurrent neural networks (RNNs).",
     "usecase": "Used in video surveillance, traffic monitoring, and security systems.",
     "challenges": "Challenges include differentiating between relevant motion and noise, handling shadows, and robustness to changing environmental conditions.",
-    "popular_methods": "Common methods include frame differencing, background subtraction, and optical flow-based approaches."
+    "popular_methods": "Common methods include frame differencing, background subtraction, and optical flow-based approaches.",
+    "image": "https://storage.googleapis.com/cv_task_description/motion_detection.jpeg?Expires=1717246582&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=TdiM3ZGmpDMjMRO0Bw6oAEoCkIldByqecnpoUw1QNeMls%2F4BH5T9ko8ZrvomRuPjd1DtlaO0fNB5FYqVs1j%2FZUvXi49EzqnYUfOm4omPpErK97KcfQGTPDqwZwYQx3nfjvWCUxJrpke%2F1SUpEXroa3JI%2Bg2F%2Fz4OpgH7lXhbzY8D4jKcbB5Kx95xini7%2Bpuy%2BmGCvzRy0GlTstlFrmDi1RXJBy4Xn9WgIRka1EAHrj%2BEt6Yf%2FlPf1QCrGQPgmm%2BfOJ%2BRquxHJ44ZCKgRTUfWT5HRMl7JlYEh0ESHS8rFEgzwH%2Fvup0Qq5u3FKr0UybFX%2BijN9ufGJlBXMvbl04EGiA%3D%3D"
   }
   

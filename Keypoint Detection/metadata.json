@@ -3,6 +3,7 @@
     "description": "Key point detection is a technique in computer vision used to identify distinctive points or regions in an image. \n It is crucial in applications such as object recognition, image stitching, and augmented reality. \n Popular methods include corner detection algorithms like Harris Corner Detector, scale-invariant feature detection methods like SIFT (Scale-Invariant Feature Transform) and SURF (Speeded-Up Robust Features), and deep learning approaches such as keypoints-based neural networks.",
     "usecase": "Used in image stitching, object tracking, and augmented reality applications.",
     "challenges": "Challenges include robustness to scale and viewpoint changes, handling occlusions, and computational efficiency.",
-    "popular_methods": "Common methods include corner detection (e.g., Harris corner detector), scale-invariant feature transform (SIFT), and keypoint detection using deep learning (e.g., CNN-based detectors)."
+    "popular_methods": "Common methods include corner detection (e.g., Harris corner detector), scale-invariant feature transform (SIFT), and keypoint detection using deep learning (e.g., CNN-based detectors).",
+    "image": "https://storage.googleapis.com/cv_task_description/key_point_detection.jpeg?Expires=1717246582&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=wY89k36V0%2ByzJeJQ1US9H3KIFlCUsvVH9elvpuxW1j8MQDC0zqczd2p7wY4bUeqaiPxi9JJvLjo17IZxFPfol3V93NSxXDD0hVafKfvQP84ZZ8ycVmkFx8KTOtuQ1W1e2StzvgAWTwjl1Wt0Eokt4ZMEhxaNXxAscGN7NQ%2BOT5BIgbVAM6SidELCiV6JWDSLehSNLslRC16%2FWlPp8PwjlaCeF2UF7Fi3gdLZrA%2B14GO9FpW%2FP9RHxkUcwK%2Ffpo01yAmyBIC0F7uEIrOBxWC0KFUEIp9uGwkhh41l6X6c5dZZyMOP0nAHC68aWMj11BZVAtLjDhz8LxGW8idoBrHRWQ%3D%3D"
   }
   

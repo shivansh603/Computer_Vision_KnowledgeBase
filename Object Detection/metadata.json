@@ -3,6 +3,7 @@
     "description": "Object detection is a computer vision technique used to locate and classify objects within an image or video frame. \n It is crucial in applications such as autonomous vehicles, security systems, and medical imaging. \n Popular methods include traditional algorithms like Haar cascades, modern deep learning approaches such as Faster R-CNN (Region-based Convolutional Neural Networks), YOLO (You Only Look Once).",
     "usecase": "Used in autonomous vehicles, surveillance systems, and object tracking applications.",
     "challenges": "Challenges include handling occlusions, scale variations, and object localization accuracy.",
-    "popular_methods": "Common methods include region-based convolutional neural networks (R-CNN), You Only Look Once (YOLO), and Single Shot MultiBox Detector (SSD)."
+    "popular_methods": "Common methods include region-based convolutional neural networks (R-CNN), You Only Look Once (YOLO), and Single Shot MultiBox Detector (SSD).",
+    "image": "https://storage.googleapis.com/cv_task_description/object_detection.png?Expires=1717246582&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=Ia5nv3Gpex20yrMImmMoYeKOglXi4SDs2nelNdvPVTLuSSnWW%2FAe7Fbh2s%2FLoCRjuRTFuqd1ImeG8xkhwlKK0vZG%2F%2BkfYCI24lJpwZDzjga5rt2olyfXrXeBoX9qA3iWuEGZ9p1oxdc3MMAcG8gjfYX02XZz45%2F069wf2Q6sgwRMI8fIaojoxoedloV%2Bc%2BWqxXo6AKfi%2FkL8k69oxW5kkm2EOQgEO4eI53CRXd43dZAyBId2OKk3vhxWaGjEq%2FYhc1a2K5%2BW7u%2FpWLj7GHdrwsJYTB3dXF7oWi%2FIx7f8l4%2BPtnO%2BMq6LMeCFb6TLTGZp426gMIZRYKV75CllZxH%2FMg%3D%3D"
   }
   

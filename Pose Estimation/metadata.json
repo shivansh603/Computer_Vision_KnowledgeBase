@@ -3,6 +3,7 @@
     "description": "Pose estimation is a computer vision technique used to infer the spatial configuration of objects or human bodies in images or videos. \n It is crucial in applications such as augmented reality, human-computer interaction, and sports analytics. \n Pose estimation algorithms analyze the positions and orientations of key points or joints to reconstruct the pose of objects or humans. Popular methods include single-person pose estimation (e.g., OpenPose), multi-person pose estimation (e.g., AlphaPose), and deep learning-based approaches such as Convolutional Pose Machines (CPM) and PoseNet. ",
     "usecase": "Used in human-computer interaction, motion capture, and sports analytics.",
     "challenges": "Challenges include occlusions, complex poses, and varying viewpoints.",
-    "popular_methods": "Common methods include deep learning-based approaches, such as Convolutional Pose Machines (CPM) and OpenPose."
+    "popular_methods": "Common methods include deep learning-based approaches, such as Convolutional Pose Machines (CPM) and OpenPose.",
+    "image": "https://storage.googleapis.com/cv_task_description/pose_estimation.png?Expires=1717246582&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=DnghUwsRxlou49Dr7K4vzrr%2BzMHBShqlj21uWQYA6DK8D2gfFA4o6J0PiAG31VPAX0VuYcoobA1%2BGRcM8vpb%2FboLaGtQm0M8PvlNHfED2sbQnJzjuq5w2%2BekNx6B0YgMjtJ3FJtwyK9sFdQhFlXntt6K3T05c1jPkSJvjhPRVqeyTpE%2F7lMiLRZSCkE%2BD3z8sSs3OkmKF%2BUYKJN6G%2FNdBHuOGKKpQWZqkWlLI4wLr8pj3ucrQJcfeFH6BQb%2FYvzAlRfVK1ngm2mZ3X0aULwfxYq3TGPjdDaT14pyYG8C39rULOVUWefIyWSMGIdxymJWoGIYoYtdipbrEx54pR64bQ%3D%3D"
   }
   

@@ -3,6 +3,7 @@
     "description": "Optical Character Recognition (OCR) is a technology used to convert scanned images of text into machine-readable text data. \n It is crucial in applications such as document digitization, text extraction from images, and automated data entry. \n Popular methods include traditional techniques like template matching, feature extraction, and machine learning algorithms such as Support Vector Machines (SVM). Deep learning approaches, particularly convolutional neural networks (CNNs) and recurrent neural networks (RNNs), have significantly improved OCR accuracy in recent years. ",
     "usecase": "Used in document digitization, text extraction from images, and automatic license plate recognition.",
     "challenges": "Challenges include handling various fonts, sizes, and styles of text, as well as noise and distortion.",
-    "popular_methods": "Common methods include traditional OCR algorithms (e.g., Tesseract), deep learning-based approaches (e.g., CRNN), and ensemble methods."
+    "popular_methods": "Common methods include traditional OCR algorithms (e.g., Tesseract), deep learning-based approaches (e.g., CRNN), and ensemble methods.",
+    "image": "https://storage.googleapis.com/cv_task_description/OCR.jpeg?Expires=1717246581&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=qzQyzjc8EETFuVprvSh%2B8ti1HK6pAvJh%2F9sZVU8jHochnrtuT8wPnZK4MVXsgQgtr0yMeoGT16KS%2FtnPi8rSpZrlqzJ6IYMd7Y22ttf%2BRJzBrfvnPmlpkqDF3b%2F2zsZhBGJxSSH4HxWv7kv9N1Y6RZ9FVPxIfdvHncYlx0truNXJly0BYrS0JIUQ4KdCmnhqmkdNa8M46XesdeRVr91gqTl0haOnPz9ogDQl1K0vPzi7ms9n0gguynmEMjBbOchEASBTLu8hL2SJUUSSvfTBFB9v%2FykBRp6268sN9oTKAEQqsnBQRKBJBIMPJvnjhLFEK2xNMBiMWNscrtO68kF6xw%3D%3D"
   }
   

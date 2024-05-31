@@ -3,6 +3,7 @@
     "description": "Image enhancement is a technique in image processing used to improve the visual quality of images. \n It is crucial in applications such as medical imaging, satellite imagery, and photography. \n Popular methods include histogram equalization, contrast stretching, and deep learning approaches like GANs (Generative Adversarial Networks) and CNNs.",
     "usecase": "Used in medical imaging, satellite imagery, and improving the visual quality of consumer photographs.",
     "challenges": "Challenges include preserving image details while removing noise, avoiding artifacts, and subjective quality assessment.",
-    "popular_methods": "Common methods include histogram equalization, bilateral filtering, wavelet transforms, and deep learning-based approaches."
+    "popular_methods": "Common methods include histogram equalization, bilateral filtering, wavelet transforms, and deep learning-based approaches.",
+    "image": "https://storage.googleapis.com/cv_task_description/image_enhancement.jpeg?Expires=1717246581&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=CNTZKvuWRmWmoizHR0yw1E%2B6tK%2BDVwM2ZmuL2wtWKCAcvr4%2BHWSqtt2wfPDrvBKRO2W6P4coNZbmg73J3mPoWmRptlFHMCuyfWxThJjuuuHG1zvOOTmEenTSpkDCJX4VTgmjhGPiROWwmXk9eUhGE6a2%2BNM9tZldh8XRWqpe2B4uDR5PMFm34L51l6ULRX%2BfnaB4veXY5fTtbp2BqybJr3Of35F4id5hqTa6p8fcE%2BSyK6F6DJhEY2%2F4tMe9Wp6ndMYo0lMSESdShWIkS0acHQ4%2BAObPXSqpgZWNWgYH26shlfJdwO2sEq%2Bn36T7rhFv1Sr%2Fe0N4uAFhue99y19COQ%3D%3D"
   }
   

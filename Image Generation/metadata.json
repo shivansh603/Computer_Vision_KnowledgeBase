@@ -3,6 +3,7 @@
     "description": "Image generation is a technique in computer vision used to create new images from scratch or modify existing ones. \n It is crucial in applications such as entertainment, design, and data augmentation. \n Popular methods include Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and deep learning-based approaches like StyleGAN. ",
     "usecase": "Used in generating synthetic data for training machine learning models, image synthesis, and artistic creation.",
     "challenges": "Challenges include generating diverse and high-quality images, preserving semantic meaning, and controlling the output.",
-    "popular_methods": "Common methods include generative adversarial networks (GANs), variational autoencoders (VAEs), and deep convolutional networks."
+    "popular_methods": "Common methods include generative adversarial networks (GANs), variational autoencoders (VAEs), and deep convolutional networks.",
+    "image": "https://storage.googleapis.com/cv_task_description/image_generation.gif?Expires=1717246581&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=luuUoIdcQt%2BO5JLWHDi5MENR8aMjHMaf5nK1y0b%2FBF8%2Bj%2B81baB5pFYCdAoF%2Fbb36duRS2RH4BUvNm0SIZ9Od0Y5oWun4n4fwjyRXt%2FjJEDI7mjdKGqNupKrLU0MGXlL7DN1kHBF1V6RBN7GNcuX1Ev5opOX9em8ldhP7NrY3IXCXd%2FJkje76OjyBFKUePWnT%2F%2FmmHTG1xPnubQ5CJBbXmIcSg7UTwGj30pB2GyFVSkG7E4B7FEqNALqxBAuJD01vg037X11o%2Fp8herE9Ri9Letgkxw7d3FMsD0cpAUNXnQZGLyeqM1AUfFBthrWgcCjRYv57a6oGLGmo4%2BV6wb6IQ%3D%3D"
   }
   
