@@ -4,6 +4,6 @@
     "usecase": "Used in document digitization, text extraction from images, and automatic license plate recognition.",
     "challenges": "Challenges include handling various fonts, sizes, and styles of text, as well as noise and distortion.",
     "popular_methods": "Common methods include traditional OCR algorithms (e.g., Tesseract), deep learning-based approaches (e.g., CRNN), and ensemble methods.",
-    "image": "https://storage.googleapis.com/cv_task_description/OCR.jpeg?Expires=1717246581&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=qzQyzjc8EETFuVprvSh%2B8ti1HK6pAvJh%2F9sZVU8jHochnrtuT8wPnZK4MVXsgQgtr0yMeoGT16KS%2FtnPi8rSpZrlqzJ6IYMd7Y22ttf%2BRJzBrfvnPmlpkqDF3b%2F2zsZhBGJxSSH4HxWv7kv9N1Y6RZ9FVPxIfdvHncYlx0truNXJly0BYrS0JIUQ4KdCmnhqmkdNa8M46XesdeRVr91gqTl0haOnPz9ogDQl1K0vPzi7ms9n0gguynmEMjBbOchEASBTLu8hL2SJUUSSvfTBFB9v%2FykBRp6268sN9oTKAEQqsnBQRKBJBIMPJvnjhLFEK2xNMBiMWNscrtO68kF6xw%3D%3D"
+    "image": "https://storage.googleapis.com/cv_task_description/ocr.png?Expires=1717250888&GoogleAccessId=owens-and-minor%40faceopen-techolution.iam.gserviceaccount.com&Signature=NbbuWjBI7NgyQwK8dfjM7WU%2FrBjDWbIu3Y2onEFd0KOqwib1DwJFzn9W9o0vf%2BkADBLPQzOWATU%2FqBIkWKU7mirHWnLc4JQ721qwHoiu0z8qHc%2BRWhCMEvZvH4oYkRRhWnfmKhN1Sl0X7xI8sVmgPo%2BjPiEhMQfjENoDLqdT73mBxVKSWvyNZapeH5V3ygvezRxk6wSIcLQzFPkvXcuXfiP8oPdJ6JQ6TIm%2FmPKVdwDsKDjRK%2FS0E%2BPDNhiC44UH9tTqp%2B6rFlKwHHU2DfO8rEQdST2xAF%2BmDXF9XobxH5u4r9zrBFoshm2rVtiuCNUkBDPIVLz%2BfJEntOFAqevevg%3D%3D"
   }
   
