@@ -1,0 +1,21 @@
+{
+    "computer_vision_task": "Object Detection",
+    "model_name": "YOLOv5",
+    "description": "YOLOv5 is a state-of-the-art object detection model that builds upon the popular YOLO (You Only Look Once) family of models. It utilizes a single neural network to perform object detection in real-time, making it suitable for various applications such as surveillance, robotics, and autonomous vehicles. YOLOv5 aims to strike a balance between speed and accuracy, making it a versatile choice for a wide range of object detection tasks.",
+    "metrics": {
+      "precision": "58.7% (on COCO val2017 dataset)",
+      "recall": "52.3% (on COCO val2017 dataset)",
+      "accuracy": "",
+      "inference_time": "3.7 ms per image on NVIDIA RTX 2080 Ti GPU"
+    },
+    "dependencies": {
+      "software_dependencies": "PyTorch, OpenCV, NumPy",
+      "hardware_requirements": "GPU (NVIDIA RTX 2080 Ti or similar recommended), CPU"
+    },
+    "limitations": "- Performance can vary depending on the complexity of the scene and the number of objects present.\n- May require fine-tuning on domain-specific datasets for optimal performance in specialized applications.\n- Struggles with small objects or objects with irregular shapes.",
+    "references": [
+      "- Bochkovskiy, A., Wang, C.-Y., & Liao, H.-Y. M. (2020). YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv:2004.10934.",
+      "- https://github.com/ultralytics/yolov5",
+      "- https://arxiv.org/abs/2004.10934"
+    ]
+   }

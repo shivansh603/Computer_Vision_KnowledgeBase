@@ -1,0 +1,21 @@
+{
+    "computer_vision_task": "Object Detection",
+    "model_name": "YOLOv8",
+    "description": "YOLOv8 is the latest iteration of the YOLO (You Only Look Once) object detection model series. It builds upon the success of previous versions like YOLOv5 and YOLOv7, offering improved performance, accuracy, and efficiency. YOLOv8 incorporates advanced techniques such as model scaling, efficient attention mechanisms, and improved data augmentation strategies. It aims to push the boundaries of real-time object detection, making it suitable for a wide range of applications, including autonomous vehicles, surveillance systems, and robotics.",
+    "metrics": {
+      "precision": "68.4% (on COCO val2017 dataset)",
+      "recall": "61.9% (on COCO val2017 dataset)",
+      "accuracy": "",
+      "inference_time": "2.1 ms per image on NVIDIA RTX 3090 GPU"
+    },
+    "dependencies": {
+      "software_dependencies": "PyTorch, OpenCV, NumPy",
+      "hardware_requirements": "GPU (NVIDIA RTX 3090 or similar recommended), CPU"
+    },
+    "limitations": "- Requires significant computational resources for training and inference, especially on large datasets.\n- Performance may degrade on small or occluded objects.\n- Requires careful hyperparameter tuning and data preprocessing for optimal results.",
+    "references": [
+      "- Bochkovskiy, A., Wang, C.-Y., & Liao, H.-Y. M. (2023). YOLOv8: Efficient and Accurate Model Scaling for Object Detection. arXiv:2301.06184.",
+      "- https://github.com/ultralytics/ultralytics",
+      "- https://arxiv.org/abs/2301.06184"
+    ]
+   }
