@@ -12,8 +12,8 @@ Inference Time:
 479.1 ms per image on CPU (ONNX)
 3.53 ms per image on A100 TensorRT
 Model Size: 68.2M parameters, 257.8B FLOPs
-Dependencies:
 
+Dependencies:
 Software Dependencies: PyTorch, OpenCV, Numpy, Pillow
 Hardware Requirements: GPU (A100 TensorRT recommended), CPU
 Limitations:
